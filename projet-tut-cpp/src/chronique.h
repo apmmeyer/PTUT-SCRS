@@ -9,6 +9,11 @@
 using namespace std;
 
 
+/* VARIABLES GLOBALES */
+
+int HEURE_COURANTE = 0; // Variable du temps, mise à jour tout au long de la lecture de la séquence
+
+
 /* CLASSES */
 
 // Chronique unitaire
@@ -34,9 +39,19 @@ private:
     event_verify = event;
   }
 
+  // Mutateur, change la valeur du nombre de validation de la chronique
+  void set_valid(int nb){
+    nb_validation = nb;
+  }
+
+  // Mutateur, ajoute une valeur dans les heures de validation de la chronique
+  void set_h_valid(int heure){
+    heure_validation.push_back(heure);
+  }
+
   // Reinitialisateur, remet à 0 la valeur du nombre de validation
   void reset_valid(){
-    event_verify = 0;
+    nb_validation = 0;
   }
 
   // Reinitialisateur, remet à 0 le tableau des heures de validation
@@ -47,6 +62,16 @@ private:
   // Reinitialisateur, remet au maximum la valeur des contraintes restantes à valider
   void reset_nb_contraintes(){
     nb_contraintes_restantes=nb_contraintes_total;
+  }
+
+  // Reinitialisateur, réinitialise tous les attributs
+  void reinit_chronique_all(){
+    nom="";
+    event_verify=false;
+    nb_validation=0;
+    heure_validation.clear();
+    nb_contraintes_restantes = nb_contraintes_total;
+  // TYPE contraintes;
   }
 
 public:
@@ -81,9 +106,14 @@ public:
 	return nb_validation;
   }
 
-  // Assesseur, ressort le nombre de validation
+  // Assesseur, ressort le tableau des heures de validation
   std::vector<int> get_h_valid(){
 	return heure_validation;
+  }
+
+  // Assesseur, ressort l'heure de la dernière validation
+  int get_last_h_valid(){
+	return (*heure_validation.end());
   }
 
   // Mutateur, change le label de l'élément
@@ -103,7 +133,33 @@ public:
     cout<<"nombre de contraintes restantes = "<<nb_contraintes_restantes<<endl;
   }
 
+  // Affiche les heures de validation de la chronique dans le terminal
+  void afficher_heures_validation(){
+    vector<int>::iterator it; // iterateur
+    for (it = heure_validation.begin(); it != heure_validation.end() ; it++)
+    {
+        cout<<"validation à "<<(*it)<<endl;
+    }
+  }
 
+  // Affiche le nombre de fois où la chronique a été terminée
+  void afficher_nb_validation(){
+    cout<<"nombre de validation = "<<nb_validation<<endl;
+  }
+
+  // Valide la chronique (affiche un message dans le terminal pour annoncer la validation de la chronique,
+  // incrémente nb_validation, met à jour heure_validation et passe nb_contraintes_restantes à nb_contraintes_total)
+  void validation_chronique(){
+    cout<<"la chronique "<<nom<<" a été validée"<<endl;
+    set_valid(nb_validation+1);
+    set_h_valid(HEURE_COURANTE);
+    reset_nb_contraintes();
+  }
+
+  // Compare la liste des evenements avec le tableau de contraintes
+  void validation_contraintes(){
+
+  }
 };
 
 /* FUNCTIONS */

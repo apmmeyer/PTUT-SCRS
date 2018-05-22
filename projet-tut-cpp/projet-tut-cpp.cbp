@@ -32,9 +32,19 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="main.cpp" />
 		<Unit filename="src/chronique.cpp" />
 		<Unit filename="src/chronique.h" />
+		<Unit filename="src/contrainte.cpp" />
+		<Unit filename="src/contrainte.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="src/event.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="src/event.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="src/main.cpp" />
 		<Unit filename="src/parser.cpp" />
 		<Unit filename="src/parser.h" />
 		<Extensions>
