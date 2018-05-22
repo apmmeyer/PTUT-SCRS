@@ -5,13 +5,13 @@
 #include <fstream>
 #include <vector>
 #include <string>
-//#include "contrainte.h"
+#include "contrainte.h"
 using namespace std;
 
 
-/* VARIABLES GLOBALES */
+/* VARIABLES GLOBALES APPELEES */
 
-int HEURE_COURANTE = 0; // Variable du temps, mise à jour tout au long de la lecture de la séquence
+extern int HEURE_COURANTE; // Variable du temps, mise à jour tout au long de la lecture de la séquence
 
 
 /* CLASSES */
@@ -29,7 +29,7 @@ private:
   std::vector<int> heure_validation; // tableau des heures de validation
   int nb_contraintes_restantes; // initialisé à nb_contraintes_total
   int nb_contraintes_total; // initialisé par le fichier de définition des chroniques
-  // TYPE contraintes; // tableau de contraintes, initialisé par le fichier de définition des chroniques
+  std::vector<contrainte> contraintes; // tableau de contraintes, initialisé par le fichier de définition des chroniques
 
 
   /* ASSESSEURS  */
@@ -71,7 +71,7 @@ private:
     nb_validation=0;
     heure_validation.clear();
     nb_contraintes_restantes = nb_contraintes_total;
-  // TYPE contraintes;
+    contraintes.clear();
   }
 
 public:
@@ -86,7 +86,7 @@ public:
     heure_validation.clear();
     nb_contraintes_restantes = nb_contraintes;
     nb_contraintes_total = nb_contraintes;
-  // TYPE contraintes;
+    contraintes.clear();
   }
 
   /* ASSESSEURS */
@@ -156,10 +156,6 @@ public:
     reset_nb_contraintes();
   }
 
-  // Compare la liste des evenements avec le tableau de contraintes
-  void validation_contraintes(){
-
-  }
 };
 
 /* FUNCTIONS */

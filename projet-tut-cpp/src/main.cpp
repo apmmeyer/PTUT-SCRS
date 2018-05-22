@@ -12,12 +12,17 @@ IDE : Code::Blocks 16.01
 
 #include <iostream>
 #include <string>
-//#include "chronique.h"
-//#include "event.h"
-//#include "contrainte.h"
+#include "chronique.h"
+#include "event.h"
+#include "contrainte.h"
 #include "parser.h"
 #include <vector>
 using namespace std;
+
+
+/* VARIABLES GLOBALES */
+
+int HEURE_COURANTE = 0;
 
 /* MAIN */
 
