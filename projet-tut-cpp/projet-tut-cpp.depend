@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1527023855 source:c:\users\acer\desktop\projet-tut-cpp\main.cpp
+	<iostream>
+	<string>
+	"./src/parser.h"
+	<vector>
+
+1527024588 c:\users\acer\desktop\projet-tut-cpp\src\parser.h
+	<iostream>
+	<fstream>
+	<vector>
+	<string>
+
+1527007622 source:c:\users\acer\desktop\projet-tut-cpp\src\chronique.cpp
+	"chronique.h"
+
+1527026449 c:\users\acer\desktop\projet-tut-cpp\src\chronique.h
+	<iostream>
+	<fstream>
+	<vector>
+	<string>
+
+1527022609 source:c:\users\acer\desktop\projet-tut-cpp\src\parser.cpp
+	"parser.h"
+
