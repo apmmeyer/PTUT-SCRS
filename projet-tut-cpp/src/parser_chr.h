@@ -3,7 +3,7 @@
 UTILISATION DU PARSEUR-CHRONIQUE
 
 - Le fichier des chroniques doit s'appeler "chroniques.txt et se trouver à l'adresse "./txt/".
-- La syntaxe pour chaque chronique est exactement : nom;nb_contraintes;()()...()
+- La syntaxe pour chaque chronique est exactement : nom;nb_contraintes:(nom1,temps1,type1)(nom2,temps2,type2)...(nomi,tempsi,typei)
 - Chaque chronique est séparée par un retour à la ligne
 
 */

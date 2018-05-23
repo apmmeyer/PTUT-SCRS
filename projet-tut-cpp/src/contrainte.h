@@ -4,6 +4,7 @@
 #include <iostream>
 #include <fstream>
 #include <vector>
+#include <list>
 #include <string>
 #include "event.h"
 using namespace std;
@@ -19,6 +20,7 @@ using namespace std;
 
 /* VARIABLES GLOBALES APPELEES */
 
+extern std::list<event> MES_EVENTS ;
 
 /* CLASSES */
 
@@ -46,7 +48,14 @@ public:
   contrainte(int time, int type_contrainte, string nom_evt){
     temps=time;
     type=type_contrainte;
-    //evenement=event;
+
+    // recherche de l'event par nom
+    list<event>::iterator it;
+	for(it=MES_EVENTS.begin(); it!=MES_EVENTS.end(); it++) {
+		if ((*it).get_label() == nom_evt) {
+            evenement=(*it);
+		}
+	}
   }
 
   /* OPERATEURS */
@@ -83,7 +92,8 @@ public:
 
   // Affiche les datas de la contrainte dans le terminal
   void afficher_contrainte(){
-    cout<<"contrainte de type : "<<type<<" evenement associe ";
+    cout<<"contrainte de type : "<<type<<endl;
+    cout<<" evenement associe ";
     evenement.afficher();
     cout<<endl;
   }

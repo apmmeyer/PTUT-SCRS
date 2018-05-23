@@ -127,6 +127,12 @@ public:
 	return (*heure_validation.end());
   }
 
+  // Assesseur, ressort le tableau des contraintes
+  std::vector<contrainte> get_contraintes(){
+	return contraintes;
+  }
+
+
   // Mutateur, change le label de l'élément
   void set_nom(string name){
     nom = name;
@@ -138,7 +144,9 @@ public:
   void afficher(){
     cout<<"nom = "<<nom<<endl;
     cout<<"nombre de validation = "<<nb_validation<<endl;
-    cout<<"derniere validation = "<<heure_validation.back()<<endl;
+    if (nb_validation != 0) {
+        cout<<"derniere validation = "<<heure_validation.back()<<endl;
+    }
     cout<<"evenement detectable = "<<event_verify<<endl;
     cout<<"nombre de contraintes total = "<<nb_contraintes_total<<endl;
     cout<<"nombre de contraintes restantes = "<<nb_contraintes_restantes<<endl;

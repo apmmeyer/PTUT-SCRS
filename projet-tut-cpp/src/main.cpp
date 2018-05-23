@@ -8,6 +8,8 @@ par Valentine Bellet, Benjamin Blum, Amélie Meyer, Ninni Stenkula et Amaury Vign
 Compilation : g++.exe -Wall -fexceptions -g -std=c++14  -c C:\Users\acer\Desktop\projet-tut-cpp\main.cpp -o obj\Debug\main.o
 IDE : Code::Blocks 16.01
 
+Fonctionnement : le fichier .exe doit être à la racine de /src et /txt.
+
 */
 
 #include <iostream>
@@ -60,6 +62,15 @@ int main(){
 		(*it).afficher();
 	}
     */
+
+
+    // TEST DE FONCTIONNEMENT  : AFFICHAGE DES CHRONIQUES LUES
+
+    list<chronique>::iterator it;
+	for(it=MES_CHRONIQUES.begin(); it!=MES_CHRONIQUES.end(); it++) {
+	//	(*it).afficher();
+	}
+    //MES_CHRONIQUES.front().get_contraintes().front().afficher_contrainte();
 
 	return 0;
 }

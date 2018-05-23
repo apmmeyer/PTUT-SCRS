@@ -18,14 +18,10 @@ std::vector<elmt_sequence> parser(){
             while(getline(fichier, maLigne))
             {
                 // cherche la position du ";" dans la ligne
-				for (std::string::size_type i = 0; i < maLigne.length(); i++) {
-					if (maLigne[i]==';') {
-						pos_separateur = i;
-					}
-				}
+				pos_separateur = maLigne.find(';');
 
                 // envoie les valeurs dans la séquence
-				maSequence.push_back(elmt_sequence(maLigne.substr(1,pos_separateur-1),std::stoi((maLigne.substr(pos_separateur+1,maLigne.length()-pos_separateur-3)))));
+				maSequence.push_back(elmt_sequence(maLigne.substr(1,pos_separateur-1),std::stoi((maLigne.substr(pos_separateur+1,maLigne.length()-pos_separateur-2)))));
 
             }
 

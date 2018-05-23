@@ -47,6 +47,10 @@
 		<Unit filename="src/main.cpp" />
 		<Unit filename="src/parser.cpp" />
 		<Unit filename="src/parser.h" />
+		<Unit filename="src/parser_chr.cpp" />
+		<Unit filename="src/parser_chr.h" />
+		<Unit filename="src/parser_event.cpp" />
+		<Unit filename="src/parser_event.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

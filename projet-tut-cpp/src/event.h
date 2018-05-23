@@ -48,7 +48,7 @@ private:
 
 public:
 
-  /* CONSTRUCTEURS */
+ /* CONSTRUCTEURS */
 
   // Constructeur simple
   event(){
