@@ -16,6 +16,8 @@ IDE : Code::Blocks 16.01
 #include "event.h"
 #include "contrainte.h"
 #include "parser.h"
+#include "parser_chr.h"
+#include "parser_event.h"
 #include <vector>
 using namespace std;
 
@@ -23,22 +25,41 @@ using namespace std;
 /* VARIABLES GLOBALES */
 
 int HEURE_COURANTE = 0;
+std::list<event> MES_EVENTS ;
+std::list<chronique> MES_CHRONIQUES ;
+std::vector<elmt_sequence> MA_SEQUENCE ;
 
 /* MAIN */
 
 int main(){
 
+    // recuperation des évenements
+	MES_EVENTS = parser_evenements();
+
+    // recuperation des chroniques
+	MES_CHRONIQUES = parser_chroniques();
+
     // recuperation de la sequence
-	std::vector<elmt_sequence> sequence = parser();
+	MA_SEQUENCE = parser();
 
-
+    /*
     // TEST DE FONCTIONNEMENT  : AFFICHAGE DE LA SEQUENCE LUE
 
     vector<elmt_sequence>::iterator it;
-	for(it=sequence.begin(); it!=sequence.end(); it++) {
+	for(it=MA_SEQUENCE.begin(); it!=MA_SEQUENCE.end(); it++) {
 		(*it).afficher();
 	}
+    */
 
+
+    /*
+    // TEST DE FONCTIONNEMENT  : AFFICHAGE DES EVENEMENTS LUS
+
+    list<event>::iterator it;
+	for(it=MES_EVENTS.begin(); it!=MES_EVENTS.end(); it++) {
+		(*it).afficher();
+	}
+    */
 
 	return 0;
 }

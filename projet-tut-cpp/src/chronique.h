@@ -90,14 +90,14 @@ public:
   }
 
   // Constructeur évolué, créé la chronique à partir des données
-  chronique(string label, int nb_contraintes){
+  chronique(string label, int nb_contraintes, vector<contrainte> vect_contraintes){
     nom=label;
     event_verify=false;
     nb_validation=0;
     heure_validation.clear();
     nb_contraintes_restantes = nb_contraintes;
     nb_contraintes_total = nb_contraintes;
-    contraintes.clear();
+    contraintes = vect_contraintes;
   }
 
   /* ASSESSEURS */

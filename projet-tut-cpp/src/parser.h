@@ -3,9 +3,8 @@
 UTILISATION DU PARSEUR
 
 - Le fichier des séquences doit s'appeler "sequence.txt et se trouver à l'adresse "./txt/".
-- La syntaxe pour chaque couple label-date est exactement (label;date)
-- Chaque couple est séparé par un marqueur retour à ligne (\n)
-- Le dernier couple est suivi du marqueur fin de document (\0)
+- La syntaxe pour chaque couple label-date est exactement : (label;date)
+- Chaque couple est séparé par un retour à la ligne
 
 */
 
@@ -81,6 +80,6 @@ public:
 
 /* FUNCTIONS */
 
-std::vector<elmt_sequence> parser(); // Parseur : traduit Sequence.txt en sequence interpretable
+std::vector<elmt_sequence> parser(); // Parseur : traduit sequence.txt en sequence interpretable
 
 #endif
