@@ -63,7 +63,7 @@ int main(){
 	}
     */
 
-
+    /*
     // TEST DE FONCTIONNEMENT  : AFFICHAGE DES CHRONIQUES LUES
 
     list<chronique>::iterator it;
@@ -71,6 +71,7 @@ int main(){
 	//	(*it).afficher();
 	}
     //MES_CHRONIQUES.front().get_contraintes().front().afficher_contrainte();
+    */
 
 	return 0;
 }
