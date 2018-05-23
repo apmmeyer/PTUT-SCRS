@@ -32,13 +32,13 @@ int main(){
 	std::vector<elmt_sequence> sequence = parser();
 
 
-    /* TEST DE FONCTIONNEMENT  : AFFICHAGE DE LA SEQUENCE LUE
+    // TEST DE FONCTIONNEMENT  : AFFICHAGE DE LA SEQUENCE LUE
 
     vector<elmt_sequence>::iterator it;
 	for(it=sequence.begin(); it!=sequence.end(); it++) {
 		(*it).afficher();
 	}
-	*/
+
 
 	return 0;
 }

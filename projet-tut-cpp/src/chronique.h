@@ -78,6 +78,17 @@ public:
 
   /* CONSTRUCTEURS */
 
+  // Constructeur simple
+  chronique(){
+    nom="";
+    event_verify=false;
+    nb_validation=0;
+    heure_validation.clear();
+    nb_contraintes_restantes = 0;
+    nb_contraintes_total = 0;
+    contraintes.clear();
+  }
+
   // Constructeur évolué, créé la chronique à partir des données
   chronique(string label, int nb_contraintes){
     nom=label;

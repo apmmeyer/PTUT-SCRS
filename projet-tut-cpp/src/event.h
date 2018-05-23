@@ -50,12 +50,30 @@ public:
 
   /* CONSTRUCTEURS */
 
+  // Constructeur simple
+  event(){
+    label="";
+    occured=false;
+    nb_occurence=0;
+    date.clear();
+  }
+
   // Constructeur évolué, créé l'event à partir des données
   event(string nom){
     label=nom;
     occured=false;
     nb_occurence=0;
     date.clear();
+  }
+
+  /* OPERATEURS */
+
+  event operator =(const event &e){
+    label =e.label;
+    occured=e.occured;
+    nb_occurence=e.nb_occurence;
+    date=date;
+    return *this;
   }
 
   /* ASSESSEURS */

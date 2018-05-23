@@ -2,7 +2,7 @@
 
 UTILISATION DU PARSEUR
 
-- Le fichier des séquences doit s'appeler "Sequence.txt et se trouver à l'adresse "./txt/".
+- Le fichier des séquences doit s'appeler "sequence.txt et se trouver à l'adresse "./txt/".
 - La syntaxe pour chaque couple label-date est exactement (label;date)
 - Chaque couple est séparé par un marqueur retour à ligne (\n)
 - Le dernier couple est suivi du marqueur fin de document (\0)
