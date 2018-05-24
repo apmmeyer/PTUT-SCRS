@@ -64,7 +64,7 @@ int main(){
 
                 // mise a jour de la liste des chroniques
                 for(list<chronique>::iterator chr= MES_CHRONIQUES.begin(); chr!=MES_CHRONIQUES.end(); chr++){
-
+                        /*** COMPLETER ***/
                 }
 
             }
