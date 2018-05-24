@@ -44,6 +44,35 @@ int main(){
     // recuperation de la sequence
 	MA_SEQUENCE = parser();
 
+
+	// algorithme de lecture de la sequence
+	for(vector<elmt_sequence>::iterator vec= MA_SEQUENCE.begin(); vec!=MA_SEQUENCE.end();vec++) {
+
+		// mise a jour de l'heure courante
+		HEURE_COURANTE = (*vec).get_date();
+
+		// mise a jour de la liste d'event
+        for(list<event>::iterator eve=  MES_EVENTS.begin(); eve!=MES_EVENTS.end(); eve++) {
+
+            // mise a jour de l'evenement dans la liste des events quand on a trouvé le bon event
+            // dans la liste des events (recherche par nom)
+            if ( ((*eve).get_label()) == (*vec).get_label() ) {
+
+                (*eve).set_occured(true);
+                (*eve).set_h_event((*vec).get_date());
+                (*eve).set_occurence((*eve).get_nb_occurence()+1);
+
+            }
+
+
+        }
+
+
+	}
+
+
+	/*************** PROCEDURES DE TEST ****************/
+
     /*
     // TEST DE FONCTIONNEMENT  : AFFICHAGE DE LA SEQUENCE LUE
 

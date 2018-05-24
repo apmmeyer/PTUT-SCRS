@@ -21,31 +21,6 @@ private:
   int nb_occurence; // initialisé à 0, indique le nombre d’apparition de l’événement dans la séquence
   std::vector<int> date; // tableau des heures d'apparition de l'évènement
 
-  /* ASSESSEURS  */
-
-  // Mutateur, change la valeur du nombre de validation de la chronique
-  void set_occurence(int nb){
-    nb_occurence = nb;
-  }
-
-  // Mutateur, ajoute une valeur dans les heures d'apparition de l'event
-  void set_h_event(int heure){
-    date.push_back(heure);
-  }
-
-  // Reinitialisateur, remet à 0 le tableau des heures de validation
-  void reset_h_event(){
-    date.clear();
-  }
-
-  // Reinitialisateur, réinitialise tous les attributs
-  void reinit_event_all(){
-    label="";
-    occured=false;
-    nb_occurence=0;
-    date.clear();
-  }
-
 public:
 
  /* CONSTRUCTEURS */
@@ -106,6 +81,34 @@ public:
   // Mutateur, change le label de l'élément
   void set_label(string name){
     label = name;
+  }
+
+  // Mutateur, change la valeur du nombre de validation de la chronique
+  void set_occurence(int nb){
+    nb_occurence = nb;
+  }
+
+  // Mutateur, change la valeur du booleen occured
+  void set_occured(bool occur){
+    occured = occur;
+  }
+
+  // Mutateur, ajoute une valeur dans les heures d'apparition de l'event
+  void set_h_event(int heure){
+    date.push_back(heure);
+  }
+
+    // Reinitialisateur, remet à 0 le tableau des heures de validation
+  void reset_h_event(){
+    date.clear();
+  }
+
+  // Reinitialisateur, réinitialise tous les attributs
+  void reinit_event_all(){
+    label="";
+    occured=false;
+    nb_occurence=0;
+    date.clear();
   }
 
   /* METHODES */

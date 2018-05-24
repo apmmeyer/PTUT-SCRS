@@ -1,2 +1,2 @@
-(e1;20)
-(fatigue;250)
+(Badge_Personne;20)
+(Temp_30;250)
