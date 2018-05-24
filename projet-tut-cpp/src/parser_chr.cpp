@@ -23,7 +23,7 @@ std::list<chronique> parser_chroniques(){
     int pos_virg_1; // position de la premiere virgule dans la parenthese courante
     int pos_virg_2; // position de la seconde virgule dans la parenthese courante
 
-    ifstream fichier("./txt/chroniques_test.txt", ios::in); // ouverture du fichier
+    ifstream fichier("./txt/chroniques.txt", ios::in); // ouverture du fichier
 
 	// si l'ouverture a réussi
     if(fichier)
