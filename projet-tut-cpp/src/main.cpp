@@ -68,9 +68,10 @@ int main(){
 
     list<chronique>::iterator it;
 	for(it=MES_CHRONIQUES.begin(); it!=MES_CHRONIQUES.end(); it++) {
-	//	(*it).afficher();
+		(*it).afficher();
 	}
-    //MES_CHRONIQUES.front().get_contraintes().front().afficher_contrainte();
+    cout<<endl;
+    MES_CHRONIQUES.front().get_contraintes().front().afficher_contrainte();
     */
 
 	return 0;

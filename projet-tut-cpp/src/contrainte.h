@@ -93,7 +93,7 @@ public:
   // Affiche les datas de la contrainte dans le terminal
   void afficher_contrainte(){
     cout<<"contrainte de type : "<<type<<endl;
-    cout<<" evenement associe ";
+    cout<<"evenement associe : ";
     evenement.afficher();
     cout<<endl;
   }

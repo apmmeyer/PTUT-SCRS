@@ -23,7 +23,7 @@ std::list<chronique> parser_chroniques(){
     int pos_virg_1; // position de la premiere virgule dans la parenthese courante
     int pos_virg_2; // position de la seconde virgule dans la parenthese courante
 
-    ifstream fichier("./txt/chroniques.txt", ios::in); // ouverture du fichier
+    ifstream fichier("./txt/chroniques_test.txt", ios::in); // ouverture du fichier
 
 	// si l'ouverture a réussi
     if(fichier)
@@ -39,7 +39,7 @@ std::list<chronique> parser_chroniques(){
 				pos_separateur_2 = maLigne.find(':');
 
                 label=maLigne.substr(0,pos_separateur_1);
-                nb_contraintes = std::stoi((maLigne.substr(pos_separateur_1+1,pos_separateur_2-1)));
+                nb_contraintes = std::stoi((maLigne.substr(pos_separateur_1+1,pos_separateur_2-pos_separateur_1-1)));
 
                 pos_par_1 = pos_separateur_2+1; // premiere parenthese
 
@@ -51,14 +51,10 @@ std::list<chronique> parser_chroniques(){
                     pos_virg_2 = maLigne.find_first_of(',',pos_virg_1+1);
                     pos_par_2 = maLigne.find_first_of(')',pos_par_1);
 
-                    /* PROBLEME AVEC LE FIND FIRST OF */
-
                     // affectation des données de la contrainte
-                    contr_nom_event = maLigne.substr(pos_par_1+1,pos_virg_1-1);
-                    contr_date = std::stoi((maLigne.substr(pos_virg_1+1,pos_virg_2-1)));
-                    contr_type = std::stoi((maLigne.substr(pos_virg_2+1,pos_par_2-1)));
-
-                    cout<<contr_nom_event<<" "<<contr_date<<" "<<contr_type<<endl;
+                    contr_nom_event = maLigne.substr(pos_par_1+1,pos_virg_1-pos_par_1-1);
+                    contr_date = std::stoi((maLigne.substr(pos_virg_1+1,pos_virg_2-pos_virg_1-1)));
+                    contr_type = std::stoi((maLigne.substr(pos_virg_2+1,pos_par_2-pos_virg_2-1)));
 
                     // ajout de la contrainte dans le vecteur contrainte
                     vecteur_c.push_back(contrainte(contr_date,contr_type,contr_nom_event));
@@ -83,4 +79,3 @@ std::list<chronique> parser_chroniques(){
 
     return maListe;
 }
-
