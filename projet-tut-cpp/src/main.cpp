@@ -62,16 +62,19 @@ int main(){
                 (*eve).set_h_event((*vec).get_date());
                 (*eve).set_occurence((*eve).get_nb_occurence()+1);
 
+                // mise a jour de la liste des chroniques
+                for(list<chronique>::iterator chr= MES_CHRONIQUES.begin(); chr!=MES_CHRONIQUES.end(); chr++){
+
+                }
+
             }
 
-
         }
-
 
 	}
 
 
-	/*************** PROCEDURES DE TEST ****************/
+	/***************** PROCEDURES DE TEST ******************/
 
     /*
     // TEST DE FONCTIONNEMENT  : AFFICHAGE DE LA SEQUENCE LUE
