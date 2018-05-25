@@ -64,7 +64,9 @@ int main(){
 
                 // mise a jour de la liste des chroniques
                 for(list<chronique>::iterator chr= MES_CHRONIQUES.begin(); chr!=MES_CHRONIQUES.end(); chr++){
-                        /*** COMPLETER ***/
+
+                    /** COMPLETER **/
+
                 }
 
             }
@@ -95,7 +97,7 @@ int main(){
 	}
     */
 
-    /*
+
     // TEST DE FONCTIONNEMENT  : AFFICHAGE DES CHRONIQUES LUES
 
     list<chronique>::iterator it;
@@ -104,7 +106,7 @@ int main(){
 	}
     cout<<endl;
     MES_CHRONIQUES.front().get_contraintes().front().afficher_contrainte();
-    */
+
 
 	return 0;
 }

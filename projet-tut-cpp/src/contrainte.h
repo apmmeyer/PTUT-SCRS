@@ -39,64 +39,36 @@ public:
   /* CONSTRUCTEURS */
 
   // Constructeur simple
-  contrainte(){
-    temps=0;
-    type=0;
-  }
+  contrainte();
 
   // Constructeur évolué, créé la contrainte à partir des données
-  contrainte(int time, int type_contrainte, string nom_evt){
-    temps=time;
-    type=type_contrainte;
-
-    // recherche de l'event par nom
-    list<event>::iterator it;
-	for(it=MES_EVENTS.begin(); it!=MES_EVENTS.end(); it++) {
-		if ((*it).get_label() == nom_evt) {
-            evenement=(*it);
-		}
-	}
-  }
+  contrainte(int time, int type_contrainte, string nom_evt);
 
   /* OPERATEURS */
 
-  contrainte operator =(const contrainte &c){
-    evenement=c.evenement;
-    type=c.type;
-    return *this;
-  }
+  contrainte operator =(const contrainte &c);
 
   /* ASSESSEURS */
 
   // Assesseur, ressort le type de la contrainte
-  int get_type(){
-	return type;
-  }
+  int get_type();
 
   // Assesseur, ressort l'event associé la contrainte
-  event get_event(){
-	return evenement;
-  }
+  event get_event();
+
+  // Assesseur, ressort le temps associé la contrainte
+  int get_time();
 
   // Mutateur, change le nom de la contrainte
-  void set_type(int type_contrainte){
-    type = type_contrainte;
-  }
+  void set_type(int type_contrainte);
 
   // Mutateur, change l'event associé à la contrainte
-  void set_type(event evt){
-    evenement = evt;
-  }
+  void set_type(event evt);
 
   /* METHODES */
 
   // Affiche les datas de la contrainte dans le terminal
-  void afficher_contrainte(){
-    cout<<"contrainte de type : "<<type<<endl;
-    cout<<"evenement associe : ";
-    evenement.afficher();
-    cout<<endl;
-  }
+  void afficher_contrainte();
 
 };
 

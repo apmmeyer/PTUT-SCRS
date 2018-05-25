@@ -34,46 +34,29 @@ public:
   /* CONSTRUCTEURS */
 
   // Constructeur nul
-  elmt_sequence(){
-    label="";
-    date=-1;
-  }
+  elmt_sequence();
 
   // Constructeur évolué, créé l'élément à partir des données
-  elmt_sequence(string name, int d){
-    label=name;
-    date=d;
-  }
+  elmt_sequence(string name, int d);
 
   /* ASSESSEURS */
 
   // Assesseur, ressort le label de l'élément
-  string get_label(){
-	return label;
-  }
+  string get_label();
 
   // Assesseur, ressort la date de l'élément
-  int get_date(){
-	return date;
-  }
+  int get_date();
 
   // Mutateur, change le label de l'élément
-  void set_label(string name){
-    label = name;
-  }
+  void set_label(string name);
 
   // Mutateur, change la date de l'élément
-  void set_date(int time){
-    date = time;
-  }
+  void set_date(int time);
 
   /* METHODES */
 
   // Affiche l'élément dans la console
-  void afficher(){
-    cout<<"label = "<<label<<endl;
-    cout<<"date = "<<date<<endl;
-  }
+  void afficher();
 
 
 };
