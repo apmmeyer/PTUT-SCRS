@@ -52,7 +52,7 @@
 
   // Assesseur, ressort l'heure de la dernière occurence
   int event::get_last_h_occur(){
-	return (*date.end());
+	return date.back();
   }
 
   // Mutateur, change le label de l'élément

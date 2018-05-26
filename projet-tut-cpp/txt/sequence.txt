@@ -1,3 +1,4 @@
 (Badge_Personne;20)
 (FranchissementAppt;25)
+(FranchissementAppt;25)
 (Temp_30;250)

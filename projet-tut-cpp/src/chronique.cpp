@@ -60,7 +60,7 @@
 
   // Assesseur, ressort l'heure de la dernière validation
   int chronique::get_last_h_valid(){
-	return (*heure_validation.end());
+	return heure_validation.back();
   }
 
   // Assesseur, ressort le tableau des contraintes
@@ -202,16 +202,17 @@ chronique check_validation(chronique chro, event e) {
 
                 // contrainte validée, on passe à la contrainte suivante
                 int nb = chro.get_contraintes_restantes();
-                chro.set_contraintes_restantes(nb -1);
+                chro.set_contraintes_restantes(nb-1);
             }
             break;
 
         case 4: // A déclenché par une chronique
+
             // parcours de toute la liste des chroniques
             for(list<chronique>::iterator chr_ev= MES_CHRONIQUES.begin(); chr_ev!=MES_CHRONIQUES.end(); chr_ev++){
 
                 // on regarde si la chronique dont dépend notre chronique a déjà été validée (chercher par nom et bool à 1)
-                bool cond_chr_de_chr = ( (list_contraintes[indice].get_event().get_label()) == (chro.get_nom()) ) && ( chro.get_event() );
+                bool cond_chr_de_chr = ( (list_contraintes[indice].get_event().get_label()) == ((*chr_ev).get_nom()) ) && ( (*chr_ev).get_event() );
                 if ( cond_chr_de_chr ) {
 
                      // contrainte validée, on passe à la contrainte suivante
