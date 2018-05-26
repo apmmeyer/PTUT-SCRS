@@ -70,6 +70,7 @@ int main(){
 
                    (*chr)=check_validation((*chr),(*eve));
 
+
                 }
 
             }

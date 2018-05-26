@@ -152,6 +152,7 @@
     cout<<"la chronique "<<nom<<" a ete validee"<<endl;
     set_valid(nb_validation+1);
     set_h_valid(HEURE_COURANTE);
+    set_event(true);
     reset_nb_contraintes();
   }
 
@@ -206,7 +207,20 @@ chronique check_validation(chronique chro, event e) {
             break;
 
         case 4: // A déclenché par une chronique
-            /**COMPLETER**/
+            // parcours de toute la liste des chroniques
+            for(list<chronique>::iterator chr_ev= MES_CHRONIQUES.begin(); chr_ev!=MES_CHRONIQUES.end(); chr_ev++){
+
+                // on regarde si la chronique dont dépend notre chronique a déjà été validée (chercher par nom et bool à 1)
+                bool cond_chr_de_chr = ( (list_contraintes[indice].get_event().get_label()) == (chro.get_nom()) ) && ( chro.get_event() );
+                if ( cond_chr_de_chr ) {
+
+                     // contrainte validée, on passe à la contrainte suivante
+                    int nb = chro.get_contraintes_restantes();
+                    chro.set_contraintes_restantes(nb -1);
+
+                }
+
+            }
             break;
 
         default:
