@@ -14,13 +14,14 @@ Fonctionnement : le fichier .exe doit être à la racine de /src et /txt.
 
 #include <iostream>
 #include <string>
+#include <vector>
+#include <list>
 #include "chronique.h"
 #include "event.h"
 #include "contrainte.h"
 #include "parser.h"
 #include "parser_chr.h"
 #include "parser_event.h"
-#include <vector>
 using namespace std;
 
 
@@ -35,6 +36,8 @@ std::vector<elmt_sequence> MA_SEQUENCE ;
 
 int main(){
 
+	/*** Initialisation ***/
+
     // recuperation des évenements
 	MES_EVENTS = parser_evenements();
 
@@ -44,20 +47,20 @@ int main(){
     // recuperation de la sequence
 	MA_SEQUENCE = parser();
 
+	/*** Algorithme de lecture de la sequence ***/
 
-	// algorithme de lecture de la sequence
+
 	for(vector<elmt_sequence>::iterator vec= MA_SEQUENCE.begin(); vec!=MA_SEQUENCE.end();vec++) {
 
 		// mise a jour de l'heure courante
 		HEURE_COURANTE = (*vec).get_date();
 
 		// mise a jour de la liste d'event
-        for(list<event>::iterator eve=  MES_EVENTS.begin(); eve!=MES_EVENTS.end(); eve++) {
+        for(list<event>::iterator eve=MES_EVENTS.begin(); eve!=MES_EVENTS.end(); eve++) {
 
             // mise a jour de l'evenement dans la liste des events quand on a trouvé le bon event
             // dans la liste des events (recherche par nom)
-            if ( ((*eve).get_label()) == (*vec).get_label() ) {
-
+            if ( ((*eve).get_label()) == ((*vec).get_label()) ) {
                 (*eve).set_occured(true);
                 (*eve).set_h_event((*vec).get_date());
                 (*eve).set_occurence((*eve).get_nb_occurence()+1);
@@ -65,7 +68,7 @@ int main(){
                 // mise a jour de la liste des chroniques
                 for(list<chronique>::iterator chr= MES_CHRONIQUES.begin(); chr!=MES_CHRONIQUES.end(); chr++){
 
-                    /** COMPLETER **/
+                   (*chr)=check_validation((*chr),(*eve));
 
                 }
 
@@ -76,36 +79,36 @@ int main(){
 	}
 
 
+
 	/***************** PROCEDURES DE TEST ******************/
 
-    /*
+
     // TEST DE FONCTIONNEMENT  : AFFICHAGE DE LA SEQUENCE LUE
 
-    vector<elmt_sequence>::iterator it;
-	for(it=MA_SEQUENCE.begin(); it!=MA_SEQUENCE.end(); it++) {
-		(*it).afficher();
-	}
+    /*
+    cout<<"La sequence : "<<endl;
+    afficheur_sequence(MA_SEQUENCE);
+
     */
 
 
-    /*
+
     // TEST DE FONCTIONNEMENT  : AFFICHAGE DES EVENEMENTS LUS
 
-    list<event>::iterator it;
-	for(it=MES_EVENTS.begin(); it!=MES_EVENTS.end(); it++) {
-		(*it).afficher();
-	}
+    /*
+    cout<<"Les evenements : "<<endl;
+    afficheur_liste_evt(MES_EVENTS);
+
     */
 
 
     // TEST DE FONCTIONNEMENT  : AFFICHAGE DES CHRONIQUES LUES
 
-    list<chronique>::iterator it;
-	for(it=MES_CHRONIQUES.begin(); it!=MES_CHRONIQUES.end(); it++) {
-		(*it).afficher();
-	}
-    cout<<endl;
-    MES_CHRONIQUES.front().get_contraintes().front().afficher_contrainte();
+    /*
+    cout<<"Les chroniques : "<<endl;
+    afficheur_liste_chr(MES_CHRONIQUES);
+
+    */
 
 
 	return 0;

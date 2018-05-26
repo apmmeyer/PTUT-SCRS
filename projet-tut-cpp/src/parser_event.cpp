@@ -40,3 +40,15 @@ std::list<event> parser_evenements(){
     return maListe;
 }
 
+// Affiche la liste des evenements comme elle apparait dans le fichier events.txt
+void afficheur_liste_evt(std::list<event> l_evt) {
+
+    list<event>::iterator it_evt; // iterateur
+    for (it_evt = l_evt.begin(); it_evt != l_evt.end() ; it_evt++)
+    {
+        cout<<(*it_evt).get_label()<<endl;
+
+    }
+
+}
+

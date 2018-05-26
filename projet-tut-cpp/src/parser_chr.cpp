@@ -12,7 +12,7 @@ std::list<chronique> parser_chroniques(){
 	int contr_date; // temp sur le contenu d'une contrainte
 	int contr_type; // idem
 	string contr_nom_event; // idem
-	vector<contrainte> vecteur_c; // temp sur le vecteur de contrainte
+    vector<contrainte> vecteur_c; // vecteur temp sur les vecteurs de contrainte
 
 	std::list<chronique> maListe; // temp sur la liste à retourner
 
@@ -41,9 +41,10 @@ std::list<chronique> parser_chroniques(){
                 label=maLigne.substr(0,pos_separateur_1);
                 nb_contraintes = std::stoi((maLigne.substr(pos_separateur_1+1,pos_separateur_2-pos_separateur_1-1)));
 
-                pos_par_1 = pos_separateur_2+1; // premiere parenthese
 
                 // identification des contraintes
+                pos_par_1 = pos_separateur_2+1; // premiere parenthese
+
 				for (int j=0;j<nb_contraintes;j++){
 
                     // recherche des séparateurs
@@ -63,9 +64,8 @@ std::list<chronique> parser_chroniques(){
 
                 // envoie les valeurs dans la liste
 				maListe.push_back(chronique(label, nb_contraintes, vecteur_c));
-
+                vecteur_c.clear();
             }
-
 
             // instructions
             fichier.close();  // je referme le fichier
@@ -78,4 +78,23 @@ std::list<chronique> parser_chroniques(){
     }
 
     return maListe;
+
+}
+
+
+// Affiche la liste des chroniques comme elle apparait dans le fichier chroniques.txt
+void afficheur_liste_chr(std::list<chronique> l_chr) {
+
+    list<chronique>::iterator it_chr; // iterateur sur la liste
+    for (it_chr = l_chr.begin(); it_chr != l_chr.end() ; it_chr++)
+    {
+        cout<<(*it_chr).get_nom()<<";"<<(*it_chr).get_contraintes_total()<<":";
+
+        vector<contrainte> vecteur_c = (*it_chr).get_contraintes(); // chargement du vecteur de contrainte
+        vector<contrainte>::iterator it_cont; // iterateur sur la contrainte
+        for (it_cont = vecteur_c.begin(); it_cont != vecteur_c.end() ; it_cont++) {
+            cout<<"("<<(*it_cont).get_event().get_label()<<","<<(*it_cont).get_time()<<","<<(*it_cont).get_type()<<")";
+        }
+        cout<<endl;
+    }
 }

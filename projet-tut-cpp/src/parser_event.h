@@ -21,5 +21,7 @@ using namespace std;
 /* FUNCTIONS */
 
 std::list<event> parser_evenements(); // Parseur : traduit events.txt en evenements
+void afficheur_liste_evt(std::list<event> l_evt); // Affiche la liste des evenements comme elle
+                                                  // apparait dans le fichier events.txt
 
 #endif

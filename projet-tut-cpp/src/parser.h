@@ -64,5 +64,6 @@ public:
 /* FUNCTIONS */
 
 std::vector<elmt_sequence> parser(); // Parseur : traduit sequence.txt en sequence interpretable
+void afficheur_sequence(std::vector<elmt_sequence> seq); // Affiche la séquence comme elle apparait dans le fichier sequence.txt
 
 #endif

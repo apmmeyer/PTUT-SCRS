@@ -38,9 +38,7 @@
 		<Unit filename="src/contrainte.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
-		<Unit filename="src/event.cpp">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
+		<Unit filename="src/event.cpp" />
 		<Unit filename="src/event.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>

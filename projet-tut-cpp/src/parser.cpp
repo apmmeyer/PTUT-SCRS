@@ -84,3 +84,15 @@ std::vector<elmt_sequence> parser(){
     return maSequence;
 }
 
+// Affiche la séquence comme elle apparait dans le fichier sequence.txt
+void afficheur_sequence(std::vector<elmt_sequence> seq) {
+
+    vector<elmt_sequence>::iterator it_seq; // iterateur
+    for (it_seq = seq.begin(); it_seq != seq.end() ; it_seq++)
+    {
+        cout<<"("<<(*it_seq).get_label()<<";"<<(*it_seq).get_date()<<")"<<endl;
+    }
+
+}
+
+

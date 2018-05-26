@@ -149,7 +149,7 @@
   // Valide la chronique (affiche un message dans le terminal pour annoncer la validation de la chronique,
   // incrémente nb_validation, met à jour heure_validation et passe nb_contraintes_restantes à nb_contraintes_total)
   void chronique::validation_chronique(){
-    cout<<"la chronique "<<nom<<" a été validée"<<endl;
+    cout<<"la chronique "<<nom<<" a ete validee"<<endl;
     set_valid(nb_validation+1);
     set_h_valid(HEURE_COURANTE);
     reset_nb_contraintes();
@@ -175,7 +175,7 @@ chronique check_validation(chronique chro, event e) {
 
     switch(list_contraintes[indice].get_type()){
 
-        case '1': // A pour t(A) quelconque
+        case 1: // A pour t(A) quelconque
 
             if (cond_nom) {
 
@@ -185,29 +185,27 @@ chronique check_validation(chronique chro, event e) {
             }
             break;
 
-        case '2': // A arrive avant T après le dernier event
+        case 2: // A arrive avant T après le dernier event
 
             if (cond_nom && cond_temps) {
 
                 // contrainte validée, on passe à la contrainte suivante
                 int nb = chro.get_contraintes_restantes();
-                chro.set_contraintes_restantes(nb -1);
-
+                chro.set_contraintes_restantes(nb-1);
             }
             break;
 
-        case '3': // Pas d'évènement A depuis le dernier élément pendant un temps T
+        case 3: // Pas d'évènement A depuis le dernier élément pendant un temps T
 
             if (cond_nom && cond_temps_no_event) {
 
                 // contrainte validée, on passe à la contrainte suivante
                 int nb = chro.get_contraintes_restantes();
                 chro.set_contraintes_restantes(nb -1);
-
             }
             break;
 
-        case '4': // A déclenché par une chronique
+        case 4: // A déclenché par une chronique
             /**COMPLETER**/
             break;
 

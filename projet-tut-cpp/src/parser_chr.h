@@ -16,10 +16,14 @@ UTILISATION DU PARSEUR-CHRONIQUE
 #include <list>
 #include <string>
 #include "chronique.h"
+#include "contrainte.h"
+#include "event.h"
 using namespace std;
 
 /* FUNCTIONS */
 
 std::list<chronique> parser_chroniques(); // Parseur : traduit chroniques.txt en chroniques
+void afficheur_liste_chr(std::list<chronique> l_chr); // Affiche la liste des chroniques comme elle
+                                                      // apparait dans le fichier chroniques.txt
 
 #endif
