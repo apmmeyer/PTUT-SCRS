@@ -1,6 +1,6 @@
 #include "parser_chr.h"
 
-/* FONCTIONS */
+/* FUNCTIONS */
 
 // fonction Parseur chroniques
 std::list<chronique> parser_chroniques(){

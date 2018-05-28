@@ -49,6 +49,12 @@
 		<Unit filename="src/parser_chr.h" />
 		<Unit filename="src/parser_event.cpp" />
 		<Unit filename="src/parser_event.h" />
+		<Unit filename="src/sequence.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="src/sequence.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Extensions>
 			<code_completion />
 			<envvars />

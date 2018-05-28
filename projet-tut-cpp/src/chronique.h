@@ -9,6 +9,10 @@
 #include "event.h"
 using namespace std;
 
+/* VARIABLES GLOBALES APPELEES */
+
+extern int HEURE_COURANTE; // Variable du temps, mise à jour tout au long de la lecture de la séquence
+
 /* CLASSES */
 
 // Chronique unitaire
@@ -109,14 +113,5 @@ public:
 
 };
 
-/* VARIABLES GLOBALES APPELEES */
-
-extern int HEURE_COURANTE; // Variable du temps, mise à jour tout au long de la lecture de la séquence
-extern std::list<chronique> MES_CHRONIQUES ; // Liste des chroniques
-
-
-/* FUNCTIONS */
-
-chronique check_validation(chronique chro, event e);
 
 #endif

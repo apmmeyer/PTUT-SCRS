@@ -5,6 +5,8 @@ UTILISATION DU PARSEUR-CHRONIQUE
 - Le fichier des chroniques doit s'appeler "chroniques.txt et se trouver à l'adresse "./txt/".
 - La syntaxe pour chaque chronique est exactement : nom;nb_contraintes:(nom1,temps1,type1)(nom2,temps2,type2)...(nomi,tempsi,typei)
 - Chaque chronique est séparée par un retour à la ligne
+- Un temps égal à 1000000 est considéré comme un temps infini
+- Un temps égal à -1 correspond à l'absence d'une contrainte de temps (il ne doit être utilisé qu'uniquement pour les chroniques de type 1 ou 4)
 
 */
 

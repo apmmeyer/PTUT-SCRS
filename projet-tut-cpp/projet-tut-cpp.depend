@@ -2,16 +2,17 @@
 1527029925 source:c:\users\acer\desktop\projet-tut-cpp\main.cpp
 	"main.h"
 
-1527331982 c:\users\acer\desktop\projet-tut-cpp\src\parser.h
+1527528246 c:\users\acer\desktop\projet-tut-cpp\src\parser.h
 	<iostream>
 	<fstream>
 	<vector>
 	<string>
+	"sequence.h"
 
-1527360680 source:c:\users\acer\desktop\projet-tut-cpp\src\chronique.cpp
+1527526985 source:c:\users\acer\desktop\projet-tut-cpp\src\chronique.cpp
 	"chronique.h"
 
-1527357770 c:\users\acer\desktop\projet-tut-cpp\src\chronique.h
+1527527032 c:\users\acer\desktop\projet-tut-cpp\src\chronique.h
 	<iostream>
 	<fstream>
 	<vector>
@@ -19,7 +20,7 @@
 	"contrainte.h"
 	"event.h"
 
-1527331982 source:c:\users\acer\desktop\projet-tut-cpp\src\parser.cpp
+1527528246 source:c:\users\acer\desktop\projet-tut-cpp\src\parser.cpp
 	"parser.h"
 
 1527264933 source:c:\users\acer\desktop\projet-tut-cpp\src\contrainte.cpp
@@ -46,7 +47,7 @@
 	"parser.h"
 	<vector>
 
-1527359703 source:c:\users\acer\desktop\projet-tut-cpp\src\main.cpp
+1527546181 source:c:\users\acer\desktop\projet-tut-cpp\src\main.cpp
 	<iostream>
 	<string>
 	<vector>
@@ -54,6 +55,7 @@
 	"chronique.h"
 	"event.h"
 	"contrainte.h"
+	"sequence.h"
 	"parser.h"
 	"parser_chr.h"
 	"parser_event.h"
@@ -64,7 +66,7 @@
 	<vector>
 	<string>
 
-1527336526 c:\users\acer\desktop\projet-tut-cpp\src\parser_chr.h
+1527495838 c:\users\acer\desktop\projet-tut-cpp\src\parser_chr.h
 	<iostream>
 	<fstream>
 	<list>
@@ -73,7 +75,7 @@
 	"contrainte.h"
 	"event.h"
 
-1527353083 source:c:\users\acer\desktop\projet-tut-cpp\src\parser_chr.cpp
+1527528246 source:c:\users\acer\desktop\projet-tut-cpp\src\parser_chr.cpp
 	"parser_chr.h"
 
 1527333612 c:\users\acer\desktop\projet-tut-cpp\src\parser_event.h
@@ -88,4 +90,10 @@
 
 1527359548 source:c:\users\acer\desktop\projet-tut-cpp\src\event.cpp
 	"event.h"
+
+1527528296 c:\users\acer\desktop\projet-tut-cpp\src\sequence.h
+	<iostream>
+	<fstream>
+	<vector>
+	<string>
 
