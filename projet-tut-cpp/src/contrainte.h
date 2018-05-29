@@ -17,6 +17,7 @@ using namespace std;
 #define _EVENT_TIMED      2    // A arrive avant T après le dernier event
 #define _NO_EVENT         3    // Pas d'évènement A depuis le dernier élément pendant un temps T
 #define _CHRONIQUE_EVENT  4    // A déclenché par une chronique
+#define _NO_EVENT_INFINI  5    // A n'apparait jamais
 
 /* VARIABLES GLOBALES APPELEES */
 
@@ -30,7 +31,8 @@ private:
 
   /* ATTRIBUTS */
 
-  event evenement; // evenement attendu ou refusé (selon le type de contrainte), attention event particulier si chronique !
+  event evenement; // evenement attendu ou refusé (selon le type de contrainte),
+                   // attention event particulier si chronique !
   int temps; // contrainte de temps, 0 si pas de contrainte
   int type; //type de contrainte
 

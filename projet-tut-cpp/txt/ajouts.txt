@@ -1,0 +1,19 @@
+---------
+AJOUTS CHRONIQUES
+---------
+
+chroniques.txt >> 
+
+CheckUpAlarm;2:(PresenceAppt_Personne,-1,4)(CheckUpAlarm_Event,120,3)
+Urgence;2:(CheckUpAlarm_Event,-1,1)(Appui,120,2)
+Urgence;2:(CheckUpAlarm_Event,-1,3)(Appui,2,2)
+Tout_va_bien;2:(CheckUpAlarm_Event,-1,1)(Appui,2,2)
+Rappel_Medicaments;3:(PresenceAppt_Personne,-1,4)(Apres22_heures,-1,1)(MedicamentPris,500,3)
+Medicaments_OK;4:(PresenceAppt_Personne,-1,4)(Appui,-1,1)(Appui,5,2)(Appui,5,2)
+
+events.txt >> 
+
+CheckUpAlarm_Event
+Appui
+Apres22_heures
+MedicamentPris

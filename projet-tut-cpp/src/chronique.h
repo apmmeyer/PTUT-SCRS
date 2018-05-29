@@ -28,7 +28,8 @@ private:
   std::vector<int> heure_validation; // tableau des heures de validation
   int nb_contraintes_restantes; // initialisé à nb_contraintes_total
   int nb_contraintes_total; // initialisé par le fichier de définition des chroniques
-  std::vector<contrainte> contraintes; // tableau de contraintes, initialisé par le fichier de définition des chroniques
+  std::vector<contrainte> contraintes; // tableau de contraintes, initialisé par le fichier
+                                       // de définition des chroniques
 
 
 public:
@@ -107,8 +108,9 @@ public:
   // Affiche le nombre de fois où la chronique a été terminée
   void afficher_nb_validation();
 
-  // Valide la chronique (affiche un message dans le terminal pour annoncer la validation de la chronique,
-  // incrémente nb_validation, met à jour heure_validation et passe nb_contraintes_restantes à nb_contraintes_total)
+  // Valide la chronique (affiche un message dans le terminal pour annoncer la
+  // validation de la chronique, incrémente nb_validation, met à jour heure_validation et
+  // passe nb_contraintes_restantes à nb_contraintes_total)
   void validation_chronique();
 
 };

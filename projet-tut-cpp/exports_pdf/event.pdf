@@ -7,7 +7,7 @@
 /Contents 4 0 R>>
 endobj
 4 0 obj
-<</Length 15362>>
+<</Length 20022>>
 stream
 q
 1.000 0.000 0.000 -1.000 0.000 841.890 cm
@@ -157,43 +157,127 @@ q 1.000 0.000 0.000 rg BT 1 0 0 -1 105.15 297.21 Tm 0 Tr (.) Tj  ET Q
 109.95 289.14 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 109.95 297.21 Tm 0 Tr (label) Tj  ET Q
 q 1.000 0.000 0.000 rg BT 1 0 0 -1 133.95 297.21 Tm 0 Tr (;) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 308.55 Tm 0 Tr ( 25  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 308.55 Tm 0 Tr (    occured=e.occured;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 308.55 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+71.55 300.48 33.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 308.55 Tm 0 Tr (occured) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 105.15 308.55 Tm 0 Tr (=) Tj  ET Q
+1.000 1.000 1.000 rg
+109.95 300.48 4.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 109.95 308.55 Tm 0 Tr (e) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 114.75 308.55 Tm 0 Tr (.) Tj  ET Q
+1.000 1.000 1.000 rg
+119.55 300.48 33.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 119.55 308.55 Tm 0 Tr (occured) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 153.15 308.55 Tm 0 Tr (;) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 319.88 Tm 0 Tr ( 26  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 319.88 Tm 0 Tr (    nb_occurence=e.nb_occurence;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 319.88 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+71.55 311.81 57.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 319.88 Tm 0 Tr (nb_occurence) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 129.15 319.88 Tm 0 Tr (=) Tj  ET Q
+1.000 1.000 1.000 rg
+133.95 311.81 4.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 133.95 319.88 Tm 0 Tr (e) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 138.75 319.88 Tm 0 Tr (.) Tj  ET Q
+1.000 1.000 1.000 rg
+143.55 311.81 57.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 143.55 319.88 Tm 0 Tr (nb_occurence) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 201.15 319.88 Tm 0 Tr (;) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 331.22 Tm 0 Tr ( 27  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 331.22 Tm 0 Tr (    date=date;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 331.22 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+71.55 323.15 19.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 331.22 Tm 0 Tr (date) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 90.75 331.22 Tm 0 Tr (=) Tj  ET Q
+1.000 1.000 1.000 rg
+95.55 323.15 19.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 95.55 331.22 Tm 0 Tr (date) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 114.75 331.22 Tm 0 Tr (;) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 342.56 Tm 0 Tr ( 28  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 342.56 Tm 0 Tr (    return *this;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 342.56 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 71.55 342.56 Tm 0 Tr (return ) Tj  ET Q
+BT /F1 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 105.15 342.56 Tm 0 Tr (*) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 109.95 342.56 Tm 0 Tr (this) Tj  ET Q
+BT /F1 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 129.15 342.56 Tm 0 Tr (;) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 353.90 Tm 0 Tr ( 29  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 353.90 Tm 0 Tr (  }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 353.90 Tm 0 Tr (  ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 61.95 353.90 Tm 0 Tr (}) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 365.24 Tm 0 Tr ( 30  ) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 376.58 Tm 0 Tr ( 31  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 376.58 Tm 0 Tr (  /* ASSESSEURS */) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 376.58 Tm 0 Tr (  ) Tj  ET Q
+q 0.627 0.627 0.627 rg BT 1 0 0 -1 61.95 376.58 Tm 0 Tr (/* ASSESSEURS */) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 387.92 Tm 0 Tr ( 32  ) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 399.25 Tm 0 Tr ( 33  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 399.25 Tm 0 Tr (  // Assesseur, ressort le nom de l'event) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 399.25 Tm 0 Tr (  ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 61.95 399.25 Tm 0 Tr (// Assesseur, ressort le nom de l'event) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 410.59 Tm 0 Tr ( 34  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 410.59 Tm 0 Tr (  string event::get_label\(\){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 410.59 Tm 0 Tr (  ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 61.95 410.59 Tm 0 Tr (string ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+95.55 402.52 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 95.55 410.59 Tm 0 Tr (event) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 119.55 410.59 Tm 0 Tr (::) Tj  ET Q
+1.000 1.000 1.000 rg
+129.15 402.52 43.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 129.15 410.59 Tm 0 Tr (get_label) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 172.35 410.59 Tm 0 Tr (\(\){) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 421.93 Tm 0 Tr ( 35  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 421.93 Tm 0 Tr (    return label;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 421.93 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 71.55 421.93 Tm 0 Tr (return ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+105.15 413.86 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 105.15 421.93 Tm 0 Tr (label) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 129.15 421.93 Tm 0 Tr (;) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 433.27 Tm 0 Tr ( 36  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 433.27 Tm 0 Tr (  }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 433.27 Tm 0 Tr (  ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 61.95 433.27 Tm 0 Tr (}) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 444.61 Tm 0 Tr ( 37  ) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 455.95 Tm 0 Tr ( 38  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 455.95 Tm 0 Tr (  // Assesseur, ressort l'état de l'event \(occured ou non\)) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 455.95 Tm 0 Tr (  ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 61.95 455.95 Tm 0 Tr (// Assesseur, ressort l'état de l'event \(occured ou non\)) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 467.29 Tm 0 Tr ( 39  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 467.29 Tm 0 Tr (  bool event::get_occured\(\){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 467.29 Tm 0 Tr (  ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 61.95 467.29 Tm 0 Tr (bool ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+85.95 459.22 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 85.95 467.29 Tm 0 Tr (event) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 109.95 467.29 Tm 0 Tr (::) Tj  ET Q
+1.000 1.000 1.000 rg
+119.55 459.22 52.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 119.55 467.29 Tm 0 Tr (get_occured) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 172.35 467.29 Tm 0 Tr (\(\){) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 478.62 Tm 0 Tr ( 40  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 478.62 Tm 0 Tr (    return occured;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 478.62 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 71.55 478.62 Tm 0 Tr (return ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+105.15 470.55 33.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 105.15 478.62 Tm 0 Tr (occured) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 138.75 478.62 Tm 0 Tr (;) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 489.96 Tm 0 Tr ( 41  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 489.96 Tm 0 Tr (  }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 489.96 Tm 0 Tr (  ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 61.95 489.96 Tm 0 Tr (}) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 501.30 Tm 0 Tr ( 42  ) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 512.64 Tm 0 Tr ( 43  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 512.64 Tm 0 Tr (  // Assesseur, ressort le nombre d'occurence) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 512.64 Tm 0 Tr (  ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 61.95 512.64 Tm 0 Tr (// Assesseur, ressort le nombre d'occurence) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 523.98 Tm 0 Tr ( 44  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 523.98 Tm 0 Tr (  int event::get_nb_occurence\(\){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 523.98 Tm 0 Tr (  ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 61.95 523.98 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+81.15 515.91 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 81.15 523.98 Tm 0 Tr (event) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 105.15 523.98 Tm 0 Tr (::) Tj  ET Q
+1.000 1.000 1.000 rg
+114.75 515.91 76.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 114.75 523.98 Tm 0 Tr (get_nb_occurence) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 191.55 523.98 Tm 0 Tr (\(\){) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 535.32 Tm 0 Tr ( 45  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 535.32 Tm 0 Tr (    return nb_occurence;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 535.32 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 71.55 535.32 Tm 0 Tr (return ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+105.15 527.25 57.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 105.15 535.32 Tm 0 Tr (nb_occurence) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 162.75 535.32 Tm 0 Tr (;) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 546.66 Tm 0 Tr ( 46  ) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 546.66 Tm 0 Tr (  }) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 557.99 Tm 0 Tr ( 47  ) Tj  ET Q
@@ -387,7 +471,7 @@ endobj
 10 0 obj
 <<
 /Producer (þÿ w x P d f D o c u m e n t   0 . 9 . 4)
-/CreationDate (D:20180529101445)
+/CreationDate (D:20180529132609)
 >>
 endobj
 11 0 obj
@@ -401,17 +485,17 @@ endobj
 xref
 0 12
 0000000000 65535 f 
-0000023365 00000 n 
-0000023653 00000 n 
+0000028025 00000 n 
+0000028313 00000 n 
 0000000009 00000 n 
 0000000098 00000 n 
-0000015511 00000 n 
-0000015600 00000 n 
-0000023460 00000 n 
-0000023559 00000 n 
-0000023767 00000 n 
-0000023798 00000 n 
-0000023906 00000 n 
+0000020171 00000 n 
+0000020260 00000 n 
+0000028120 00000 n 
+0000028219 00000 n 
+0000028427 00000 n 
+0000028458 00000 n 
+0000028566 00000 n 
 trailer
 <<
 /Size 12
@@ -419,5 +503,5 @@ trailer
 /Info 10 0 R
 >>
 startxref
-24010
+28670
 %%EOF
