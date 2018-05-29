@@ -1,0 +1,345 @@
+%PDF-1.3
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots []
+/Contents 4 0 R>>
+endobj
+4 0 obj
+<</Length 11065>>
+stream
+q
+1.000 0.000 0.000 -1.000 0.000 841.890 cm
+2 J
+0.57 w
+BT /F1 8.00 Tf ET
+0 G
+0 g
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 36.42 Tm 0 Tr (  1  ) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 52.35 36.42 Tm 0 Tr (#ifndef CHRONIQUE_H_INCLUDED) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 47.76 Tm 0 Tr (  2  ) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 52.35 47.76 Tm 0 Tr (#define CHRONIQUE_H_INCLUDED) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 59.10 Tm 0 Tr (  3  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 70.44 Tm 0 Tr (  4  ) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 52.35 70.44 Tm 0 Tr (#include <iostream>) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 81.77 Tm 0 Tr (  5  ) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 52.35 81.77 Tm 0 Tr (#include <fstream>) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 93.11 Tm 0 Tr (  6  ) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 52.35 93.11 Tm 0 Tr (#include <vector>) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 104.45 Tm 0 Tr (  7  ) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 52.35 104.45 Tm 0 Tr (#include <string>) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 115.79 Tm 0 Tr (  8  ) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 52.35 115.79 Tm 0 Tr (#include "contrainte.h") Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 127.13 Tm 0 Tr (  9  ) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 52.35 127.13 Tm 0 Tr (#include "event.h") Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 138.47 Tm 0 Tr ( 10  ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 138.47 Tm 0 Tr (using namespace ) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 129.15 138.47 Tm 0 Tr (std) Tj  ET Q
+BT /F1 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 143.55 138.47 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 149.81 Tm 0 Tr ( 11  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 161.14 Tm 0 Tr ( 12  ) Tj  ET Q
+q 0.627 0.627 0.627 rg BT 1 0 0 -1 52.35 161.14 Tm 0 Tr (/* VARIABLES GLOBALES APPELEES */) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 172.48 Tm 0 Tr ( 13  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 183.82 Tm 0 Tr ( 14  ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 183.82 Tm 0 Tr (extern int ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+105.15 175.75 67.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 105.15 183.82 Tm 0 Tr (HEURE_COURANTE) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 172.35 183.82 Tm 0 Tr (; ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 181.95 183.82 Tm 0 Tr (// Variable du temps, mise à jour tout au long de la lecture de la séquence) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 195.16 Tm 0 Tr ( 15  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 206.50 Tm 0 Tr ( 16  ) Tj  ET Q
+q 0.627 0.627 0.627 rg BT 1 0 0 -1 52.35 206.50 Tm 0 Tr (/* CLASSES */) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 217.84 Tm 0 Tr ( 17  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 229.18 Tm 0 Tr ( 18  ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 52.35 229.18 Tm 0 Tr (// Chronique unitaire) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 240.51 Tm 0 Tr ( 19  ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 240.51 Tm 0 Tr (class ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+81.15 232.44 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 81.15 240.51 Tm 0 Tr (chronique ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 129.15 240.51 Tm 0 Tr ({) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 251.85 Tm 0 Tr ( 20  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 263.19 Tm 0 Tr ( 21  ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 263.19 Tm 0 Tr (private) Tj  ET Q
+BT /F1 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 85.95 263.19 Tm 0 Tr (:) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 274.53 Tm 0 Tr ( 22  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 285.87 Tm 0 Tr ( 23  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 285.87 Tm 0 Tr (  ) Tj  ET Q
+q 0.627 0.627 0.627 rg BT 1 0 0 -1 61.95 285.87 Tm 0 Tr (/* ATTRIBUTS */) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 297.21 Tm 0 Tr ( 24  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 308.55 Tm 0 Tr ( 25  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 308.55 Tm 0 Tr (  ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 61.95 308.55 Tm 0 Tr (string ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+95.55 300.48 14.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 95.55 308.55 Tm 0 Tr (nom) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 109.95 308.55 Tm 0 Tr (; ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 119.55 308.55 Tm 0 Tr (//initialisé par le fichier de définition des chroniques) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 319.88 Tm 0 Tr ( 26  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 319.88 Tm 0 Tr (  ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 61.95 319.88 Tm 0 Tr (bool ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+85.95 311.81 57.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 85.95 319.88 Tm 0 Tr (event_verify) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 143.55 319.88 Tm 0 Tr (; ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 153.15 319.88 Tm 0 Tr (// initialisé à false, utile pour les chroniques de chroniques) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 331.22 Tm 0 Tr ( 27  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 331.22 Tm 0 Tr (  int nb_validation; // initialisé à 0, indique le nombre de validation de la chronique) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 342.56 Tm 0 Tr ( 28  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 342.56 Tm 0 Tr (  std::vector<int> heure_validation; // tableau des heures de validation) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 353.90 Tm 0 Tr ( 29  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 353.90 Tm 0 Tr (  int nb_contraintes_restantes; // initialisé à nb_contraintes_total) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 365.24 Tm 0 Tr ( 30  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 365.24 Tm 0 Tr (  int nb_contraintes_total; // initialisé par le fichier de définition des chroniques) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 376.58 Tm 0 Tr ( 31  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 376.58 Tm 0 Tr (  std::vector<contrainte> contraintes; // tableau de contraintes, initialisé par le fichier de définition) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 387.92 Tm 0 Tr (des chroniques) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 399.25 Tm 0 Tr ( 32  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 410.59 Tm 0 Tr ( 33  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 421.93 Tm 0 Tr ( 34  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 421.93 Tm 0 Tr (public:) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 433.27 Tm 0 Tr ( 35  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 444.61 Tm 0 Tr ( 36  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 444.61 Tm 0 Tr (  /* CONSTRUCTEURS */) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 455.95 Tm 0 Tr ( 37  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 467.29 Tm 0 Tr ( 38  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 467.29 Tm 0 Tr (  // Constructeur simple) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 478.62 Tm 0 Tr ( 39  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 478.62 Tm 0 Tr (  chronique\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 489.96 Tm 0 Tr ( 40  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 501.30 Tm 0 Tr ( 41  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 501.30 Tm 0 Tr (  // Constructeur évolué, créé la chronique à partir des données) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 512.64 Tm 0 Tr ( 42  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 512.64 Tm 0 Tr (  chronique\(string label, int nb_contraintes, vector<contrainte> vect_contraintes\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 523.98 Tm 0 Tr ( 43  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 535.32 Tm 0 Tr ( 44  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 535.32 Tm 0 Tr (  /* ASSESSEURS */) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 546.66 Tm 0 Tr ( 45  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 557.99 Tm 0 Tr ( 46  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 557.99 Tm 0 Tr (  // Assesseur, ressort le nom de la chronique) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 569.33 Tm 0 Tr ( 47  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 569.33 Tm 0 Tr (  string get_nom\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 580.67 Tm 0 Tr ( 48  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 592.01 Tm 0 Tr ( 49  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 592.01 Tm 0 Tr (  // Assesseur, ressort l'état de la chronique \(pour les chroniques de chroniques\)) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 603.35 Tm 0 Tr ( 50  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 603.35 Tm 0 Tr (  bool get_event\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 614.69 Tm 0 Tr ( 51  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 626.03 Tm 0 Tr ( 52  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 626.03 Tm 0 Tr (  // Assesseur, ressort le nombre de validation) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 637.36 Tm 0 Tr ( 53  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 637.36 Tm 0 Tr (  int get_nb_valid\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 648.70 Tm 0 Tr ( 54  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 660.04 Tm 0 Tr ( 55  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 660.04 Tm 0 Tr (  // Assesseur, ressort le nombre de contraintes restantes) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 671.38 Tm 0 Tr ( 56  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 671.38 Tm 0 Tr (  int get_contraintes_restantes\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 682.72 Tm 0 Tr ( 57  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 694.06 Tm 0 Tr ( 58  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 705.40 Tm 0 Tr ( 59  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 705.40 Tm 0 Tr (   // Assesseur, ressort le nombre de contraintes totales) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 716.73 Tm 0 Tr ( 60  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 716.73 Tm 0 Tr (  int get_contraintes_total\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 728.07 Tm 0 Tr ( 61  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 739.41 Tm 0 Tr ( 62  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 750.75 Tm 0 Tr ( 63  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 750.75 Tm 0 Tr (  // Assesseur, ressort le tableau des heures de validation) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 762.09 Tm 0 Tr ( 64  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 762.09 Tm 0 Tr (  std::vector<int> get_h_valid\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 773.43 Tm 0 Tr ( 65  ) Tj  ET Q
+Q
+
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots []
+/Contents 6 0 R>>
+endobj
+6 0 obj
+<</Length 7877>>
+stream
+q
+1.000 0.000 0.000 -1.000 0.000 841.890 cm
+2 J
+0.57 w
+BT /F1 8.00 Tf ET
+0 G
+1.000 1.000 1.000 rg
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 36.42 Tm 0 Tr ( 66  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 36.42 Tm 0 Tr (  // Assesseur, ressort l'heure de la dernière validation) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 47.76 Tm 0 Tr ( 67  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 47.76 Tm 0 Tr (  int get_last_h_valid\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 59.10 Tm 0 Tr ( 68  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 70.44 Tm 0 Tr ( 69  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 70.44 Tm 0 Tr (  // Assesseur, ressort le tableau des contraintes) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 81.77 Tm 0 Tr ( 70  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 81.77 Tm 0 Tr (  std::vector<contrainte> get_contraintes\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 93.11 Tm 0 Tr ( 71  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 104.45 Tm 0 Tr ( 72  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 104.45 Tm 0 Tr (  // Mutateur, change la valeur du nombre de contraintes restantes de la chronique) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 115.79 Tm 0 Tr ( 73  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 115.79 Tm 0 Tr (  void set_contraintes_restantes\(int nb\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 127.13 Tm 0 Tr ( 74  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 138.47 Tm 0 Tr ( 75  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 138.47 Tm 0 Tr (  // Mutateur, change le label de l'élément) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 149.81 Tm 0 Tr ( 76  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 149.81 Tm 0 Tr (  void set_nom\(string name\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 161.14 Tm 0 Tr ( 77  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 172.48 Tm 0 Tr ( 78  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 172.48 Tm 0 Tr (    // Mutateur, change la valeur d'évènement de la chronique) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 183.82 Tm 0 Tr ( 79  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 183.82 Tm 0 Tr (  void set_event\(bool event\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 195.16 Tm 0 Tr ( 80  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 206.50 Tm 0 Tr ( 81  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 206.50 Tm 0 Tr (  // Mutateur, change la valeur du nombre de validation de la chronique) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 217.84 Tm 0 Tr ( 82  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 217.84 Tm 0 Tr (  void set_valid\(int nb\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 229.18 Tm 0 Tr ( 83  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 240.51 Tm 0 Tr ( 84  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 240.51 Tm 0 Tr (  // Mutateur, ajoute une valeur dans les heures de validation de la chronique) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 251.85 Tm 0 Tr ( 85  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 251.85 Tm 0 Tr (  void set_h_valid\(int heure\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 263.19 Tm 0 Tr ( 86  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 274.53 Tm 0 Tr ( 87  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 274.53 Tm 0 Tr (  // Reinitialisateur, remet à 0 la valeur du nombre de validation) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 285.87 Tm 0 Tr ( 88  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 285.87 Tm 0 Tr (  void reset_valid\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 297.21 Tm 0 Tr ( 89  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 308.55 Tm 0 Tr ( 90  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 308.55 Tm 0 Tr (  // Reinitialisateur, remet à 0 le tableau des heures de validation) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 319.88 Tm 0 Tr ( 91  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 319.88 Tm 0 Tr (  void reset_h_valid\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 331.22 Tm 0 Tr ( 92  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 342.56 Tm 0 Tr ( 93  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 342.56 Tm 0 Tr (  // Reinitialisateur, remet au maximum la valeur des contraintes restantes à valider) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 353.90 Tm 0 Tr ( 94  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 353.90 Tm 0 Tr (  void reset_nb_contraintes\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 365.24 Tm 0 Tr ( 95  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 376.58 Tm 0 Tr ( 96  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 376.58 Tm 0 Tr (  // Reinitialisateur, réinitialise tous les attributs) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 387.92 Tm 0 Tr ( 97  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 387.92 Tm 0 Tr (  void reinit_chronique_all\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 399.25 Tm 0 Tr ( 98  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 410.59 Tm 0 Tr ( 99  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 410.59 Tm 0 Tr (  /* METHODES */) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 421.93 Tm 0 Tr (100  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 433.27 Tm 0 Tr (101  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 433.27 Tm 0 Tr (  // Affiche certains éléments dans la console) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 444.61 Tm 0 Tr (102  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 444.61 Tm 0 Tr (  void afficher\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 455.95 Tm 0 Tr (103  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 467.29 Tm 0 Tr (104  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 467.29 Tm 0 Tr (  // Affiche les heures de validation de la chronique dans le terminal) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 478.62 Tm 0 Tr (105  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 478.62 Tm 0 Tr (  void afficher_heures_validation\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 489.96 Tm 0 Tr (106  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 501.30 Tm 0 Tr (107  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 501.30 Tm 0 Tr (  // Affiche le nombre de fois où la chronique a été terminée) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 512.64 Tm 0 Tr (108  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 512.64 Tm 0 Tr (  void afficher_nb_validation\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 523.98 Tm 0 Tr (109  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 535.32 Tm 0 Tr (110  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 535.32 Tm 0 Tr (  // Valide la chronique \(affiche un message dans le terminal pour annoncer la validation de la chronique,) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 546.66 Tm 0 Tr (111  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 546.66 Tm 0 Tr (  // incrémente nb_validation, met à jour heure_validation et passe nb_contraintes_restantes à) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 557.99 Tm 0 Tr (nb_contraintes_total\)) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 569.33 Tm 0 Tr (112  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 569.33 Tm 0 Tr (  void validation_chronique\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 580.67 Tm 0 Tr (113  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 592.01 Tm 0 Tr (114  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 592.01 Tm 0 Tr (};) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 603.35 Tm 0 Tr (115  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 614.69 Tm 0 Tr (116  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 626.03 Tm 0 Tr (117  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 626.03 Tm 0 Tr (#endif) Tj  ET Q
+Q
+
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R ]
+/Count 2
+/MediaBox [0 0 595.276 841.890]
+>>
+endobj
+7 0 obj
+<</Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+8 0 obj
+<</Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F2 7 0 R
+/F1 8 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+9 0 obj
+<<
+/Names []
+>>
+endobj
+10 0 obj
+<<
+/Producer (þÿ w x P d f D o c u m e n t   0 . 9 . 4)
+/CreationDate (D:20180529101420)
+>>
+endobj
+11 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000019230 00000 n 
+0000019518 00000 n 
+0000000009 00000 n 
+0000000098 00000 n 
+0000011214 00000 n 
+0000011303 00000 n 
+0000019325 00000 n 
+0000019424 00000 n 
+0000019632 00000 n 
+0000019663 00000 n 
+0000019771 00000 n 
+trailer
+<<
+/Size 12
+/Root 11 0 R
+/Info 10 0 R
+>>
+startxref
+19875
+%%EOF

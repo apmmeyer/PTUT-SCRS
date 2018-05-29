@@ -1,0 +1,414 @@
+%PDF-1.3
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots []
+/Contents 4 0 R>>
+endobj
+4 0 obj
+<</Length 17214>>
+stream
+q
+1.000 0.000 0.000 -1.000 0.000 841.890 cm
+2 J
+0.57 w
+BT /F1 8.00 Tf ET
+0 G
+0 g
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 36.42 Tm 0 Tr (  1  ) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 52.35 36.42 Tm 0 Tr (#include "parser_chr.h") Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 47.76 Tm 0 Tr (  2  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 59.10 Tm 0 Tr (  3  ) Tj  ET Q
+q 0.627 0.627 0.627 rg BT 1 0 0 -1 52.35 59.10 Tm 0 Tr (/* FUNCTIONS */) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 70.44 Tm 0 Tr (  4  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 81.77 Tm 0 Tr (  5  ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 52.35 81.77 Tm 0 Tr (// fonction Parseur chroniques) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 93.11 Tm 0 Tr (  6  ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 52.35 93.11 Tm 0 Tr (std) Tj  ET Q
+BT /F1 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 66.75 93.11 Tm 0 Tr (::) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 76.35 93.11 Tm 0 Tr (list) Tj  ET Q
+BT /F1 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 95.55 93.11 Tm 0 Tr (<) Tj  ET Q
+1.000 1.000 1.000 rg
+100.35 85.04 43.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 93.11 Tm 0 Tr (chronique) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 143.55 93.11 Tm 0 Tr (> ) Tj  ET Q
+1.000 1.000 1.000 rg
+153.15 85.04 81.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 153.15 93.11 Tm 0 Tr (parser_chroniques) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 234.75 93.11 Tm 0 Tr (\(\){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 104.45 Tm 0 Tr (  7  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 115.79 Tm 0 Tr (  8  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 115.79 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 71.55 115.79 Tm 0 Tr (string ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+105.15 107.72 33.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 105.15 115.79 Tm 0 Tr (maLigne) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 138.75 115.79 Tm 0 Tr (; ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 148.35 115.79 Tm 0 Tr (// temp sur la ligne courante \(en lecture\)) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 127.13 Tm 0 Tr (  9  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 127.13 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 71.55 127.13 Tm 0 Tr (string ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+105.15 119.06 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 105.15 127.13 Tm 0 Tr (label) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 129.15 127.13 Tm 0 Tr (; ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 138.75 127.13 Tm 0 Tr (// temp sur le nom de la chronique) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 138.47 Tm 0 Tr ( 10  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 138.47 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 71.55 138.47 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+90.75 130.40 67.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 138.47 Tm 0 Tr (nb_contraintes) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 157.95 138.47 Tm 0 Tr (; ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 167.55 138.47 Tm 0 Tr (// temp sur le nb de contraintes) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 149.81 Tm 0 Tr ( 11  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 161.14 Tm 0 Tr ( 12  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 161.14 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 71.55 161.14 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+90.75 153.07 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 161.14 Tm 0 Tr (contr_date) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 138.75 161.14 Tm 0 Tr (; ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 148.35 161.14 Tm 0 Tr (// temp sur le contenu d'une contrainte) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 172.48 Tm 0 Tr ( 13  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 172.48 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 71.55 172.48 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+90.75 164.41 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 172.48 Tm 0 Tr (contr_type) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 138.75 172.48 Tm 0 Tr (; ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 148.35 172.48 Tm 0 Tr (// idem) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 183.82 Tm 0 Tr ( 14  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 183.82 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 71.55 183.82 Tm 0 Tr (string ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+105.15 175.75 72.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 105.15 183.82 Tm 0 Tr (contr_nom_event) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 177.15 183.82 Tm 0 Tr (; ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 186.75 183.82 Tm 0 Tr (// idem) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 195.16 Tm 0 Tr ( 15  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 195.16 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 71.55 195.16 Tm 0 Tr (vector) Tj  ET Q
+BT /F1 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 195.16 Tm 0 Tr (<) Tj  ET Q
+1.000 1.000 1.000 rg
+105.15 187.09 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 105.15 195.16 Tm 0 Tr (contrainte) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 153.15 195.16 Tm 0 Tr (> ) Tj  ET Q
+1.000 1.000 1.000 rg
+162.75 187.09 43.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 162.75 195.16 Tm 0 Tr (vecteur_c) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 205.95 195.16 Tm 0 Tr (; ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 215.55 195.16 Tm 0 Tr (// vecteur temp sur les vecteurs de contrainte) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 206.50 Tm 0 Tr ( 16  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 217.84 Tm 0 Tr ( 17  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 217.84 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 71.55 217.84 Tm 0 Tr (std) Tj  ET Q
+BT /F1 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 85.95 217.84 Tm 0 Tr (::) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 95.55 217.84 Tm 0 Tr (list) Tj  ET Q
+BT /F1 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 114.75 217.84 Tm 0 Tr (<) Tj  ET Q
+1.000 1.000 1.000 rg
+119.55 209.77 43.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 119.55 217.84 Tm 0 Tr (chronique) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 162.75 217.84 Tm 0 Tr (> ) Tj  ET Q
+1.000 1.000 1.000 rg
+172.35 209.77 33.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 172.35 217.84 Tm 0 Tr (maListe) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 205.95 217.84 Tm 0 Tr (; ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 215.55 217.84 Tm 0 Tr (// temp sur la liste à retourner) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 229.18 Tm 0 Tr ( 18  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 240.51 Tm 0 Tr ( 19  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 240.51 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 71.55 240.51 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+90.75 232.44 76.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 240.51 Tm 0 Tr (pos_separateur_1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 167.55 240.51 Tm 0 Tr (; ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 177.15 240.51 Tm 0 Tr (// position du séparateur ; dans la ligne) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 251.85 Tm 0 Tr ( 20  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 251.85 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 71.55 251.85 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+90.75 243.78 76.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 251.85 Tm 0 Tr (pos_separateur_2) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 167.55 251.85 Tm 0 Tr (; ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 177.15 251.85 Tm 0 Tr (// position du séparateur : dans la ligne) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 263.19 Tm 0 Tr ( 21  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 263.19 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 71.55 263.19 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+90.75 255.12 43.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 263.19 Tm 0 Tr (pos_par_1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 133.95 263.19 Tm 0 Tr (; ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 143.55 263.19 Tm 0 Tr (// position de la parenthese \( dans la ligne) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 274.53 Tm 0 Tr ( 22  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 274.53 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 71.55 274.53 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+90.75 266.46 43.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 274.53 Tm 0 Tr (pos_par_2) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 133.95 274.53 Tm 0 Tr (; ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 143.55 274.53 Tm 0 Tr (// position de la parenthese \) dans la ligne) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 285.87 Tm 0 Tr ( 23  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 285.87 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 71.55 285.87 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+90.75 277.80 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 285.87 Tm 0 Tr (pos_virg_1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 138.75 285.87 Tm 0 Tr (; ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 148.35 285.87 Tm 0 Tr (// position de la premiere virgule dans la parenthese courante) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 297.21 Tm 0 Tr ( 24  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 297.21 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 71.55 297.21 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+90.75 289.14 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 297.21 Tm 0 Tr (pos_virg_2) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 138.75 297.21 Tm 0 Tr (; ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 148.35 297.21 Tm 0 Tr (// position de la seconde virgule dans la parenthese courante) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 308.55 Tm 0 Tr ( 25  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 319.88 Tm 0 Tr ( 26  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 319.88 Tm 0 Tr (    ifstream fichier\("./txt/chroniques.txt", ios::in\); // ouverture du fichier) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 331.22 Tm 0 Tr ( 27  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 342.56 Tm 0 Tr ( 28  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 342.56 Tm 0 Tr (    // si l'ouverture a réussi) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 353.90 Tm 0 Tr ( 29  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 353.90 Tm 0 Tr (    if\(fichier\)) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 365.24 Tm 0 Tr ( 30  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 365.24 Tm 0 Tr (    {) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 376.58 Tm 0 Tr ( 31  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 376.58 Tm 0 Tr (            // tant qu'on est pas au bout du fichier) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 387.92 Tm 0 Tr ( 32  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 387.92 Tm 0 Tr (            while\(getline\(fichier, maLigne\)\)) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 399.25 Tm 0 Tr ( 33  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 399.25 Tm 0 Tr (            {) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 410.59 Tm 0 Tr ( 34  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 421.93 Tm 0 Tr ( 35  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 421.93 Tm 0 Tr (                // cherche la position du ";" dans la ligne) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 433.27 Tm 0 Tr ( 36  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 433.27 Tm 0 Tr (                pos_separateur_1 = maLigne.find\(';'\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 444.61 Tm 0 Tr ( 37  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 455.95 Tm 0 Tr ( 38  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 455.95 Tm 0 Tr (                // cherche la position du ":" dans la ligne) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 467.29 Tm 0 Tr ( 39  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 467.29 Tm 0 Tr (                pos_separateur_2 = maLigne.find\(':'\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 478.62 Tm 0 Tr ( 40  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 489.96 Tm 0 Tr ( 41  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 489.96 Tm 0 Tr (                label=maLigne.substr\(0,pos_separateur_1\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 501.30 Tm 0 Tr ( 42  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 501.30 Tm 0 Tr (                nb_contraintes =) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 512.64 Tm 0 Tr (std::stoi\(\(maLigne.substr\(pos_separateur_1+1,pos_separateur_2-pos_separateur_1-1\)\)\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 523.98 Tm 0 Tr ( 43  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 535.32 Tm 0 Tr ( 44  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 546.66 Tm 0 Tr ( 45  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 546.66 Tm 0 Tr (                // identification des contraintes) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 557.99 Tm 0 Tr ( 46  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 557.99 Tm 0 Tr (                pos_par_1 = pos_separateur_2+1; // premiere parenthese) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 569.33 Tm 0 Tr ( 47  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 580.67 Tm 0 Tr ( 48  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 580.67 Tm 0 Tr (                for \(int j=0;j<nb_contraintes;j++\){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 592.01 Tm 0 Tr ( 49  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 603.35 Tm 0 Tr ( 50  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 603.35 Tm 0 Tr (                    // recherche des séparateurs) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 614.69 Tm 0 Tr ( 51  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 614.69 Tm 0 Tr (                    pos_virg_1 = maLigne.find_first_of\(',',pos_par_1\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 626.03 Tm 0 Tr ( 52  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 626.03 Tm 0 Tr (                    pos_virg_2 = maLigne.find_first_of\(',',pos_virg_1+1\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 637.36 Tm 0 Tr ( 53  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 637.36 Tm 0 Tr (                    pos_par_2 = maLigne.find_first_of\('\)',pos_par_1\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 648.70 Tm 0 Tr ( 54  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 660.04 Tm 0 Tr ( 55  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 660.04 Tm 0 Tr (                    // affectation des données de la contrainte) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 671.38 Tm 0 Tr ( 56  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 671.38 Tm 0 Tr (                    contr_nom_event = maLigne.substr\(pos_par_1+1,pos_virg_1-pos_par_1-1\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 682.72 Tm 0 Tr ( 57  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 682.72 Tm 0 Tr (                    contr_date = std::stoi\(\(maLigne.substr\(pos_virg_1+1,pos_virg_2-pos_virg_1-1\)\)\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 694.06 Tm 0 Tr ( 58  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 694.06 Tm 0 Tr (                    contr_type = std::stoi\(\(maLigne.substr\(pos_virg_2+1,pos_par_2-pos_virg_2-1\)\)\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 705.40 Tm 0 Tr ( 59  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 716.73 Tm 0 Tr ( 60  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 716.73 Tm 0 Tr (                    // ajout de la contrainte dans le vecteur contrainte) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 728.07 Tm 0 Tr ( 61  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 728.07 Tm 0 Tr (                    vecteur_c.push_back\(contrainte\(contr_date,contr_type,contr_nom_event\)\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 739.41 Tm 0 Tr ( 62  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 739.41 Tm 0 Tr (                    pos_par_1=pos_par_2+1; // nouvelle parenthese) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 750.75 Tm 0 Tr ( 63  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 750.75 Tm 0 Tr (                }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 762.09 Tm 0 Tr ( 64  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 773.43 Tm 0 Tr ( 65  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 773.43 Tm 0 Tr (                // envoie les valeurs dans la liste) Tj  ET Q
+Q
+
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots []
+/Contents 6 0 R>>
+endobj
+6 0 obj
+<</Length 5549>>
+stream
+q
+1.000 0.000 0.000 -1.000 0.000 841.890 cm
+2 J
+0.57 w
+BT /F1 8.00 Tf ET
+0 G
+1.000 1.000 1.000 rg
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 36.42 Tm 0 Tr ( 66  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 36.42 Tm 0 Tr (                maListe.push_back\(chronique\(label, nb_contraintes, vecteur_c\)\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 47.76 Tm 0 Tr ( 67  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 47.76 Tm 0 Tr (                vecteur_c.clear\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 59.10 Tm 0 Tr ( 68  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 59.10 Tm 0 Tr (            }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 70.44 Tm 0 Tr ( 69  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 81.77 Tm 0 Tr ( 70  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 81.77 Tm 0 Tr (            // instructions) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 93.11 Tm 0 Tr ( 71  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 93.11 Tm 0 Tr (            fichier.close\(\);  // je referme le fichier) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 104.45 Tm 0 Tr ( 72  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 115.79 Tm 0 Tr ( 73  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 115.79 Tm 0 Tr (    } else {) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 127.13 Tm 0 Tr ( 74  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 138.47 Tm 0 Tr ( 75  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 138.47 Tm 0 Tr (            // erreur) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 149.81 Tm 0 Tr ( 76  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 149.81 Tm 0 Tr (            cout << "Erreur à l'ouverture !" << endl;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 161.14 Tm 0 Tr ( 77  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 172.48 Tm 0 Tr ( 78  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 172.48 Tm 0 Tr (    }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 183.82 Tm 0 Tr ( 79  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 195.16 Tm 0 Tr ( 80  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 195.16 Tm 0 Tr (    return maListe;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 206.50 Tm 0 Tr ( 81  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 217.84 Tm 0 Tr ( 82  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 217.84 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 229.18 Tm 0 Tr ( 83  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 240.51 Tm 0 Tr ( 84  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 251.85 Tm 0 Tr ( 85  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 251.85 Tm 0 Tr (// Affiche la liste des chroniques comme elle apparait dans le fichier chroniques.txt) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 263.19 Tm 0 Tr ( 86  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 263.19 Tm 0 Tr (void afficheur_liste_chr\(std::list<chronique> l_chr\) {) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 274.53 Tm 0 Tr ( 87  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 285.87 Tm 0 Tr ( 88  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 285.87 Tm 0 Tr (    list<chronique>::iterator it_chr; // iterateur sur la liste) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 297.21 Tm 0 Tr ( 89  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 297.21 Tm 0 Tr (    for \(it_chr = l_chr.begin\(\); it_chr != l_chr.end\(\) ; it_chr++\)) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 308.55 Tm 0 Tr ( 90  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 308.55 Tm 0 Tr (    {) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 319.88 Tm 0 Tr ( 91  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 319.88 Tm 0 Tr (        cout<<\(*it_chr\).get_nom\(\)<<";"<<\(*it_chr\).get_contraintes_total\(\)<<":";) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 331.22 Tm 0 Tr ( 92  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 342.56 Tm 0 Tr ( 93  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 342.56 Tm 0 Tr (        vector<contrainte> vecteur_c = \(*it_chr\).get_contraintes\(\); // chargement du vecteur de contrainte) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 353.90 Tm 0 Tr ( 94  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 353.90 Tm 0 Tr (        vector<contrainte>::iterator it_cont; // iterateur sur la contrainte) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 365.24 Tm 0 Tr ( 95  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 365.24 Tm 0 Tr (        for \(it_cont = vecteur_c.begin\(\); it_cont != vecteur_c.end\(\) ; it_cont++\) {) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 376.58 Tm 0 Tr ( 96  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 376.58 Tm 0 Tr (           ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 387.92 Tm 0 Tr (cout<<"\("<<\(*it_cont\).get_event\(\).get_label\(\)<<","<<\(*it_cont\).get_time\(\)<<","<<\(*it_cont\).get_type\(\)<<"\)";) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 399.25 Tm 0 Tr ( 97  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 399.25 Tm 0 Tr (        }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 410.59 Tm 0 Tr ( 98  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 410.59 Tm 0 Tr (        cout<<endl;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 421.93 Tm 0 Tr ( 99  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 421.93 Tm 0 Tr (    }) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 433.27 Tm 0 Tr (100  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 433.27 Tm 0 Tr (}) Tj  ET Q
+Q
+
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R ]
+/Count 2
+/MediaBox [0 0 595.276 841.890]
+>>
+endobj
+7 0 obj
+<</Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+8 0 obj
+<</Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F2 7 0 R
+/F1 8 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+9 0 obj
+<<
+/Names []
+>>
+endobj
+10 0 obj
+<<
+/Producer (þÿ w x P d f D o c u m e n t   0 . 9 . 4)
+/CreationDate (D:20180529101531)
+>>
+endobj
+11 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000023051 00000 n 
+0000023339 00000 n 
+0000000009 00000 n 
+0000000098 00000 n 
+0000017363 00000 n 
+0000017452 00000 n 
+0000023146 00000 n 
+0000023245 00000 n 
+0000023453 00000 n 
+0000023484 00000 n 
+0000023592 00000 n 
+trailer
+<<
+/Size 12
+/Root 11 0 R
+/Info 10 0 R
+>>
+startxref
+23696
+%%EOF

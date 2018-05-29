@@ -47,7 +47,7 @@
 	"parser.h"
 	<vector>
 
-1527546181 source:c:\users\acer\desktop\projet-tut-cpp\src\main.cpp
+1527585487 source:c:\users\acer\desktop\projet-tut-cpp\src\main.cpp
 	<iostream>
 	<string>
 	<vector>
@@ -58,7 +58,7 @@
 	"sequence.h"
 	"parser.h"
 	"parser_chr.h"
-	"parser_event.h"
+	"parser_evt.h"
 
 1527265080 c:\users\acer\desktop\projet-tut-cpp\src\event.h
 	<iostream>
@@ -96,4 +96,17 @@
 	<fstream>
 	<vector>
 	<string>
+
+1527528246 source:c:\users\acer\desktop\projet-tut-cpp\src\sequence.cpp
+	"sequence.h"
+
+1527585453 source:c:\users\acer\desktop\projet-tut-cpp\src\parser_evt.cpp
+	"parser_evt.h"
+
+1527585426 c:\users\acer\desktop\projet-tut-cpp\src\parser_evt.h
+	<iostream>
+	<fstream>
+	<list>
+	<string>
+	"event.h"
 

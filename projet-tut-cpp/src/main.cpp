@@ -22,7 +22,7 @@ Fonctionnement : le fichier .exe doit être à la racine de /src et /txt.
 #include "sequence.h"
 #include "parser.h"
 #include "parser_chr.h"
-#include "parser_event.h"
+#include "parser_evt.h"
 using namespace std;
 
 
@@ -49,7 +49,7 @@ chronique check_validation(chronique chro, event e) {
     // affectation des conditions
     bool cond_nom = ((list_contraintes[indice].get_event().get_label()) ==  (e.get_label())); // temp sur la condition sur le nom
     bool cond_temps = ((list_contraintes[indice].get_time()) >=  (e.get_last_h_occur())); // temp sur la condition sur le temps
-    bool cond_temps_no_event = ( HEURE_COURANTE >=  ((e.get_last_h_occur())) + (list_contraintes[indice].get_time())); // temp sur la condition sur le temps pour le no event
+    bool cond_temps_no_event = (HEURE_COURANTE >=  ((e.get_last_h_occur())) + (list_contraintes[indice].get_time())); // temp sur la condition sur le temps pour le no event
 
     switch(list_contraintes[indice].get_type()){
 
@@ -133,7 +133,6 @@ int main(){
 	MA_SEQUENCE = parser();
 
 	/*** Algorithme de lecture de la sequence ***/
-
 
 	for(vector<elmt_sequence>::iterator vec= MA_SEQUENCE.begin(); vec!=MA_SEQUENCE.end();vec++) {
 

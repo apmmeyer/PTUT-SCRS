@@ -1,0 +1,431 @@
+%PDF-1.3
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots []
+/Contents 4 0 R>>
+endobj
+4 0 obj
+<</Length 17694>>
+stream
+q
+1.000 0.000 0.000 -1.000 0.000 841.890 cm
+2 J
+0.57 w
+BT /F1 8.00 Tf ET
+0 G
+0 g
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 36.42 Tm 0 Tr ( 1  ) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 47.55 36.42 Tm 0 Tr (#ifndef EVENT_H_INCLUDED) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 47.76 Tm 0 Tr ( 2  ) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 47.55 47.76 Tm 0 Tr (#define EVENT_H_INCLUDED) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 59.10 Tm 0 Tr ( 3  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 70.44 Tm 0 Tr ( 4  ) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 47.55 70.44 Tm 0 Tr (#include <iostream>) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 81.77 Tm 0 Tr ( 5  ) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 47.55 81.77 Tm 0 Tr (#include <fstream>) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 93.11 Tm 0 Tr ( 6  ) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 47.55 93.11 Tm 0 Tr (#include <vector>) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 104.45 Tm 0 Tr ( 7  ) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 47.55 104.45 Tm 0 Tr (#include <string>) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 115.79 Tm 0 Tr ( 8  ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 47.55 115.79 Tm 0 Tr (using namespace ) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 124.35 115.79 Tm 0 Tr (std) Tj  ET Q
+BT /F1 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 138.75 115.79 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 127.13 Tm 0 Tr ( 9  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 138.47 Tm 0 Tr (10  ) Tj  ET Q
+q 0.627 0.627 0.627 rg BT 1 0 0 -1 47.55 138.47 Tm 0 Tr (/* CLASSES */) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 149.81 Tm 0 Tr (11  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 161.14 Tm 0 Tr (12  ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 47.55 161.14 Tm 0 Tr (// Event unitaire) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 172.48 Tm 0 Tr (13  ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 47.55 172.48 Tm 0 Tr (class ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+76.35 164.41 28.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 76.35 172.48 Tm 0 Tr (event ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 105.15 172.48 Tm 0 Tr ({) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 183.82 Tm 0 Tr (14  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 195.16 Tm 0 Tr (15  ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 47.55 195.16 Tm 0 Tr (private) Tj  ET Q
+BT /F1 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 81.15 195.16 Tm 0 Tr (:) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 206.50 Tm 0 Tr (16  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 217.84 Tm 0 Tr (17  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 217.84 Tm 0 Tr (  ) Tj  ET Q
+q 0.627 0.627 0.627 rg BT 1 0 0 -1 57.15 217.84 Tm 0 Tr (/* ATTRIBUTS */) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 229.18 Tm 0 Tr (18  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 240.51 Tm 0 Tr (19  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 240.51 Tm 0 Tr (  ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 57.15 240.51 Tm 0 Tr (string ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+90.75 232.44 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 240.51 Tm 0 Tr (label) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 114.75 240.51 Tm 0 Tr (; ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 124.35 240.51 Tm 0 Tr (//initialisé par le fichier de définition des events) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 251.85 Tm 0 Tr (20  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 251.85 Tm 0 Tr (  ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 57.15 251.85 Tm 0 Tr (bool ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+81.15 243.78 33.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 81.15 251.85 Tm 0 Tr (occured) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 114.75 251.85 Tm 0 Tr (; ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 124.35 251.85 Tm 0 Tr (// initialisé à false, indique si l’événement est arrivé au moins une fois) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 263.19 Tm 0 Tr (21  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 263.19 Tm 0 Tr (  ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 57.15 263.19 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+76.35 255.12 57.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 76.35 263.19 Tm 0 Tr (nb_occurence) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 133.95 263.19 Tm 0 Tr (; ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 143.55 263.19 Tm 0 Tr (// initialisé à 0, indique le nombre d’apparition de l’événement dans la séquence) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 274.53 Tm 0 Tr (22  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 274.53 Tm 0 Tr (  ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 57.15 274.53 Tm 0 Tr (std) Tj  ET Q
+BT /F1 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 71.55 274.53 Tm 0 Tr (::) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 81.15 274.53 Tm 0 Tr (vector) Tj  ET Q
+BT /F1 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 109.95 274.53 Tm 0 Tr (<) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 114.75 274.53 Tm 0 Tr (int) Tj  ET Q
+BT /F1 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 129.15 274.53 Tm 0 Tr (> ) Tj  ET Q
+1.000 1.000 1.000 rg
+138.75 266.46 19.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 138.75 274.53 Tm 0 Tr (date) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 157.95 274.53 Tm 0 Tr (; ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 167.55 274.53 Tm 0 Tr (// tableau des heures d'apparition de l'évènement) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 285.87 Tm 0 Tr (23  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 297.21 Tm 0 Tr (24  ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 47.55 297.21 Tm 0 Tr (public) Tj  ET Q
+BT /F1 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 76.35 297.21 Tm 0 Tr (:) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 308.55 Tm 0 Tr (25  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 319.88 Tm 0 Tr (26  ) Tj  ET Q
+q 0.627 0.627 0.627 rg BT 1 0 0 -1 52.35 319.88 Tm 0 Tr (/* CONSTRUCTEURS */) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 331.22 Tm 0 Tr (27  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 342.56 Tm 0 Tr (28  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 342.56 Tm 0 Tr (  ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 57.15 342.56 Tm 0 Tr (// Constructeur simple) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 353.90 Tm 0 Tr (29  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 353.90 Tm 0 Tr (  ) Tj  ET Q
+1.000 1.000 1.000 rg
+57.15 345.83 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 57.15 353.90 Tm 0 Tr (event) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 81.15 353.90 Tm 0 Tr (\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 365.24 Tm 0 Tr (30  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 376.58 Tm 0 Tr (31  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 376.58 Tm 0 Tr (  ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 57.15 376.58 Tm 0 Tr (// Constructeur évolué, créé l'event à partir des données) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 387.92 Tm 0 Tr (32  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 387.92 Tm 0 Tr (  ) Tj  ET Q
+1.000 1.000 1.000 rg
+57.15 379.85 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 57.15 387.92 Tm 0 Tr (event) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 81.15 387.92 Tm 0 Tr (\() Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 85.95 387.92 Tm 0 Tr (string ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+119.55 379.85 14.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 119.55 387.92 Tm 0 Tr (nom) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 133.95 387.92 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 399.25 Tm 0 Tr (33  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 410.59 Tm 0 Tr (34  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 410.59 Tm 0 Tr (  ) Tj  ET Q
+q 0.627 0.627 0.627 rg BT 1 0 0 -1 57.15 410.59 Tm 0 Tr (/* OPERATEURS */) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 421.93 Tm 0 Tr (35  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 433.27 Tm 0 Tr (36  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 433.27 Tm 0 Tr (  ) Tj  ET Q
+1.000 1.000 1.000 rg
+57.15 425.20 28.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 57.15 433.27 Tm 0 Tr (event ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 85.95 433.27 Tm 0 Tr (operator ) Tj  ET Q
+BT /F1 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 129.15 433.27 Tm 0 Tr (=\() Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 138.75 433.27 Tm 0 Tr (const ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+167.55 425.20 28.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 167.55 433.27 Tm 0 Tr (event ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 196.35 433.27 Tm 0 Tr (&) Tj  ET Q
+1.000 1.000 1.000 rg
+201.15 425.20 4.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 201.15 433.27 Tm 0 Tr (e) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 205.95 433.27 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 444.61 Tm 0 Tr (37  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 455.95 Tm 0 Tr (38  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 455.95 Tm 0 Tr (  ) Tj  ET Q
+q 0.627 0.627 0.627 rg BT 1 0 0 -1 57.15 455.95 Tm 0 Tr (/* ASSESSEURS */) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 467.29 Tm 0 Tr (39  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 478.62 Tm 0 Tr (40  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 478.62 Tm 0 Tr (  ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 57.15 478.62 Tm 0 Tr (// Assesseur, ressort le nom de l'event) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 489.96 Tm 0 Tr (41  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 489.96 Tm 0 Tr (  ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 57.15 489.96 Tm 0 Tr (string ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+90.75 481.89 43.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 90.75 489.96 Tm 0 Tr (get_label) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 133.95 489.96 Tm 0 Tr (\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 501.30 Tm 0 Tr (42  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 512.64 Tm 0 Tr (43  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 512.64 Tm 0 Tr (  ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 57.15 512.64 Tm 0 Tr (// Assesseur, ressort l'état de l'event \(occured ou non\)) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 523.98 Tm 0 Tr (44  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 523.98 Tm 0 Tr (  ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 57.15 523.98 Tm 0 Tr (bool ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+81.15 515.91 52.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 81.15 523.98 Tm 0 Tr (get_occured) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 133.95 523.98 Tm 0 Tr (\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 535.32 Tm 0 Tr (45  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 546.66 Tm 0 Tr (46  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 546.66 Tm 0 Tr (  ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 57.15 546.66 Tm 0 Tr (// Assesseur, ressort le nombre d'occurence) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 557.99 Tm 0 Tr (47  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 557.99 Tm 0 Tr (  ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 57.15 557.99 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+76.35 549.92 76.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 76.35 557.99 Tm 0 Tr (get_nb_occurence) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 153.15 557.99 Tm 0 Tr (\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 569.33 Tm 0 Tr (48  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 580.67 Tm 0 Tr (49  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 580.67 Tm 0 Tr (  ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 57.15 580.67 Tm 0 Tr (// Assesseur, ressort le tableau des heures d'occurence) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 592.01 Tm 0 Tr (50  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 592.01 Tm 0 Tr (  ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 57.15 592.01 Tm 0 Tr (std) Tj  ET Q
+BT /F1 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 71.55 592.01 Tm 0 Tr (::) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 81.15 592.01 Tm 0 Tr (vector) Tj  ET Q
+BT /F1 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 109.95 592.01 Tm 0 Tr (<) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 114.75 592.01 Tm 0 Tr (int) Tj  ET Q
+BT /F1 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 129.15 592.01 Tm 0 Tr (> ) Tj  ET Q
+1.000 1.000 1.000 rg
+138.75 583.94 52.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 138.75 592.01 Tm 0 Tr (get_h_occur) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 191.55 592.01 Tm 0 Tr (\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 603.35 Tm 0 Tr (51  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 614.69 Tm 0 Tr (52  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 614.69 Tm 0 Tr (  ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 57.15 614.69 Tm 0 Tr (// Assesseur, ressort l'heure de la dernière occurence) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 626.03 Tm 0 Tr (53  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 626.03 Tm 0 Tr (  ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 57.15 626.03 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+76.35 617.96 76.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 76.35 626.03 Tm 0 Tr (get_last_h_occur) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 153.15 626.03 Tm 0 Tr (\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 637.36 Tm 0 Tr (54  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 648.70 Tm 0 Tr (55  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 648.70 Tm 0 Tr (  ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 57.15 648.70 Tm 0 Tr (// Mutateur, change le label de l'élément) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 660.04 Tm 0 Tr (56  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 660.04 Tm 0 Tr (  ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 57.15 660.04 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+81.15 651.97 43.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 81.15 660.04 Tm 0 Tr (set_label) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 660.04 Tm 0 Tr (\() Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 129.15 660.04 Tm 0 Tr (string ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+162.75 651.97 19.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 162.75 660.04 Tm 0 Tr (name) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 181.95 660.04 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 671.38 Tm 0 Tr (57  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 682.72 Tm 0 Tr (58  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 682.72 Tm 0 Tr (  ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 57.15 682.72 Tm 0 Tr (// Mutateur, change la valeur du nombre de validation de la chronique) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 694.06 Tm 0 Tr (59  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 694.06 Tm 0 Tr (  ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 57.15 694.06 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+81.15 685.99 62.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 81.15 694.06 Tm 0 Tr (set_occurence) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 143.55 694.06 Tm 0 Tr (\() Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 148.35 694.06 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+167.55 685.99 9.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 167.55 694.06 Tm 0 Tr (nb) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 177.15 694.06 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 705.40 Tm 0 Tr (60  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 716.73 Tm 0 Tr (61  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 716.73 Tm 0 Tr (  ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 57.15 716.73 Tm 0 Tr (// Mutateur, change la valeur du booleen occured) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 728.07 Tm 0 Tr (62  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 728.07 Tm 0 Tr (  ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 57.15 728.07 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+81.15 720.00 52.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 81.15 728.07 Tm 0 Tr (set_occured) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 133.95 728.07 Tm 0 Tr (\() Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 138.75 728.07 Tm 0 Tr (bool ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+162.75 720.00 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 162.75 728.07 Tm 0 Tr (occur) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 186.75 728.07 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 739.41 Tm 0 Tr (63  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 750.75 Tm 0 Tr (64  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 750.75 Tm 0 Tr (  // Mutateur, ajoute une valeur dans les heures d'apparition de l'event) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 762.09 Tm 0 Tr (65  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 762.09 Tm 0 Tr (  void set_h_event\(int heure\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 773.43 Tm 0 Tr (66  ) Tj  ET Q
+Q
+
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots []
+/Contents 6 0 R>>
+endobj
+6 0 obj
+<</Length 3253>>
+stream
+q
+1.000 0.000 0.000 -1.000 0.000 841.890 cm
+2 J
+0.57 w
+BT /F1 8.00 Tf ET
+0 G
+1.000 1.000 1.000 rg
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 36.42 Tm 0 Tr (67  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 36.42 Tm 0 Tr (    // Reinitialisateur, remet à 0 le tableau des heures de validation) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 47.76 Tm 0 Tr (68  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 47.76 Tm 0 Tr (  void reset_h_event\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 59.10 Tm 0 Tr (69  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 70.44 Tm 0 Tr (70  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 70.44 Tm 0 Tr (  // Reinitialisateur, réinitialise tous les attributs) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 81.77 Tm 0 Tr (71  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 81.77 Tm 0 Tr (  void reinit_event_all\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 93.11 Tm 0 Tr (72  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 104.45 Tm 0 Tr (73  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 104.45 Tm 0 Tr (  /* METHODES */) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 115.79 Tm 0 Tr (74  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 127.13 Tm 0 Tr (75  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 127.13 Tm 0 Tr (  // Affiche certains éléments dans la console) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 138.47 Tm 0 Tr (76  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 138.47 Tm 0 Tr (  void afficher\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 149.81 Tm 0 Tr (77  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 161.14 Tm 0 Tr (78  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 161.14 Tm 0 Tr (  // Affiche les heures d'occurence de l'event dans le terminal) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 172.48 Tm 0 Tr (79  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 172.48 Tm 0 Tr (  void afficher_heures_occur\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 183.82 Tm 0 Tr (80  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 195.16 Tm 0 Tr (81  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 195.16 Tm 0 Tr (  // Affiche le nombre de fois où l'event est arrivé) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 206.50 Tm 0 Tr (82  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 206.50 Tm 0 Tr (  void afficher_nb_occurence\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 217.84 Tm 0 Tr (83  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 229.18 Tm 0 Tr (84  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 240.51 Tm 0 Tr (85  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 240.51 Tm 0 Tr (};) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 251.85 Tm 0 Tr (86  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 263.19 Tm 0 Tr (87  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 263.19 Tm 0 Tr (/* FUNCTIONS */) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 274.53 Tm 0 Tr (88  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 285.87 Tm 0 Tr (89  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 297.21 Tm 0 Tr (90  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 297.21 Tm 0 Tr (#endif // EVENT_H_INCLUDED) Tj  ET Q
+Q
+
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R ]
+/Count 2
+/MediaBox [0 0 595.276 841.890]
+>>
+endobj
+7 0 obj
+<</Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+8 0 obj
+<</Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F2 7 0 R
+/F1 8 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+9 0 obj
+<<
+/Names []
+>>
+endobj
+10 0 obj
+<<
+/Producer (þÿ w x P d f D o c u m e n t   0 . 9 . 4)
+/CreationDate (D:20180529101409)
+>>
+endobj
+11 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000021235 00000 n 
+0000021523 00000 n 
+0000000009 00000 n 
+0000000098 00000 n 
+0000017843 00000 n 
+0000017932 00000 n 
+0000021330 00000 n 
+0000021429 00000 n 
+0000021637 00000 n 
+0000021668 00000 n 
+0000021776 00000 n 
+trailer
+<<
+/Size 12
+/Root 11 0 R
+/Info 10 0 R
+>>
+startxref
+21880
+%%EOF
