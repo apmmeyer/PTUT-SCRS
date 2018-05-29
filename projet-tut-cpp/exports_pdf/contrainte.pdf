@@ -7,7 +7,7 @@
 /Contents 4 0 R>>
 endobj
 4 0 obj
-<</Length 26250>>
+<</Length 22641>>
 stream
 q
 1.000 0.000 0.000 -1.000 0.000 841.890 cm
@@ -336,95 +336,32 @@ BT /F1 8.00 Tf ET
 201.15 595.28 72.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 201.15 603.35 Tm 0 Tr (type_contrainte) Tj  ET Q
 q 1.000 0.000 0.000 rg BT 1 0 0 -1 273.15 603.35 Tm 0 Tr (\){) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 614.69 Tm 0 Tr (52  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 614.69 Tm 0 Tr (    ) Tj  ET Q
-1.000 1.000 1.000 rg
-66.75 606.62 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 66.75 614.69 Tm 0 Tr (type ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 90.75 614.69 Tm 0 Tr (= ) Tj  ET Q
-1.000 1.000 1.000 rg
-100.35 606.62 72.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 614.69 Tm 0 Tr (type_contrainte) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 172.35 614.69 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 614.69 Tm 0 Tr (    type = type_contrainte;) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 626.03 Tm 0 Tr (53  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 626.03 Tm 0 Tr (  ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 57.15 626.03 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 626.03 Tm 0 Tr (  }) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 637.36 Tm 0 Tr (54  ) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 648.70 Tm 0 Tr (55  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 648.70 Tm 0 Tr (  ) Tj  ET Q
-q 0.745 0.745 0.902 rg BT 1 0 0 -1 57.15 648.70 Tm 0 Tr (// Mutateur, change l'event associé à la contrainte) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 648.70 Tm 0 Tr (  // Mutateur, change l'event associé à la contrainte) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 660.04 Tm 0 Tr (56  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 660.04 Tm 0 Tr (  ) Tj  ET Q
-BT /F2 8.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 57.15 660.04 Tm 0 Tr (void ) Tj  ET Q
-BT /F1 8.00 Tf ET
-1.000 1.000 1.000 rg
-81.15 651.97 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 81.15 660.04 Tm 0 Tr (contrainte) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 129.15 660.04 Tm 0 Tr (::) Tj  ET Q
-1.000 1.000 1.000 rg
-138.75 651.97 38.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 138.75 660.04 Tm 0 Tr (set_type) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 177.15 660.04 Tm 0 Tr (\() Tj  ET Q
-1.000 1.000 1.000 rg
-181.95 651.97 43.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 181.95 660.04 Tm 0 Tr (event evt) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 225.15 660.04 Tm 0 Tr (\){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 660.04 Tm 0 Tr (  void contrainte::set_type\(event evt\){) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 671.38 Tm 0 Tr (57  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 671.38 Tm 0 Tr (    ) Tj  ET Q
-1.000 1.000 1.000 rg
-66.75 663.31 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 66.75 671.38 Tm 0 Tr (evenement ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 114.75 671.38 Tm 0 Tr (= ) Tj  ET Q
-1.000 1.000 1.000 rg
-124.35 663.31 14.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 124.35 671.38 Tm 0 Tr (evt) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 138.75 671.38 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 671.38 Tm 0 Tr (    evenement = evt;) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 682.72 Tm 0 Tr (58  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 682.72 Tm 0 Tr (  ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 57.15 682.72 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 682.72 Tm 0 Tr (  }) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 694.06 Tm 0 Tr (59  ) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 705.40 Tm 0 Tr (60  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 705.40 Tm 0 Tr (  ) Tj  ET Q
-q 0.627 0.627 0.627 rg BT 1 0 0 -1 57.15 705.40 Tm 0 Tr (/* METHODES */) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 705.40 Tm 0 Tr (  /* METHODES */) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 716.73 Tm 0 Tr (61  ) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 728.07 Tm 0 Tr (62  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 728.07 Tm 0 Tr (  ) Tj  ET Q
-q 0.745 0.745 0.902 rg BT 1 0 0 -1 57.15 728.07 Tm 0 Tr (// Affiche les datas de la contrainte dans le terminal) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 728.07 Tm 0 Tr (  // Affiche les datas de la contrainte dans le terminal) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 739.41 Tm 0 Tr (63  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 739.41 Tm 0 Tr (  ) Tj  ET Q
-BT /F2 8.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 57.15 739.41 Tm 0 Tr (void ) Tj  ET Q
-BT /F1 8.00 Tf ET
-1.000 1.000 1.000 rg
-81.15 731.34 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 81.15 739.41 Tm 0 Tr (contrainte) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 129.15 739.41 Tm 0 Tr (::) Tj  ET Q
-1.000 1.000 1.000 rg
-138.75 731.34 91.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 138.75 739.41 Tm 0 Tr (afficher_contrainte) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 229.95 739.41 Tm 0 Tr (\(\){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 739.41 Tm 0 Tr (  void contrainte::afficher_contrainte\(\){) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 750.75 Tm 0 Tr (64  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 750.75 Tm 0 Tr (    ) Tj  ET Q
-BT /F2 8.00 Tf ET
-q 0.000 0.627 0.000 rg BT 1 0 0 -1 66.75 750.75 Tm 0 Tr (cout) Tj  ET Q
-BT /F1 8.00 Tf ET
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 85.95 750.75 Tm 0 Tr (<<) Tj  ET Q
-q 0.000 0.000 1.000 rg BT 1 0 0 -1 95.55 750.75 Tm 0 Tr ("contrainte de type : ") Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 205.95 750.75 Tm 0 Tr (<<) Tj  ET Q
-1.000 1.000 1.000 rg
-215.55 742.68 19.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 215.55 750.75 Tm 0 Tr (type) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 234.75 750.75 Tm 0 Tr (<<) Tj  ET Q
-BT /F2 8.00 Tf ET
-q 0.000 0.627 0.000 rg BT 1 0 0 -1 244.35 750.75 Tm 0 Tr (endl) Tj  ET Q
-BT /F1 8.00 Tf ET
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 263.55 750.75 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 750.75 Tm 0 Tr (    cout<<"contrainte de type : "<<type<<endl;) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 762.09 Tm 0 Tr (65  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 762.09 Tm 0 Tr (    ) Tj  ET Q
-BT /F2 8.00 Tf ET
-q 0.000 0.627 0.000 rg BT 1 0 0 -1 66.75 762.09 Tm 0 Tr (cout) Tj  ET Q
-BT /F1 8.00 Tf ET
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 85.95 762.09 Tm 0 Tr (<<) Tj  ET Q
-q 0.000 0.000 1.000 rg BT 1 0 0 -1 95.55 762.09 Tm 0 Tr ("evenement associe : ") Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 201.15 762.09 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 762.09 Tm 0 Tr (    cout<<"evenement associe : ";) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 773.43 Tm 0 Tr (66  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 773.43 Tm 0 Tr (    ) Tj  ET Q
-1.000 1.000 1.000 rg
-66.75 765.36 43.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 66.75 773.43 Tm 0 Tr (evenement) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 109.95 773.43 Tm 0 Tr (.) Tj  ET Q
-1.000 1.000 1.000 rg
-114.75 765.36 38.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 114.75 773.43 Tm 0 Tr (afficher) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 153.15 773.43 Tm 0 Tr (\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 773.43 Tm 0 Tr (    evenement.afficher\(\);) Tj  ET Q
 Q
 
 endstream
@@ -437,7 +374,7 @@ endobj
 /Contents 6 0 R>>
 endobj
 6 0 obj
-<</Length 802>>
+<</Length 394>>
 stream
 q
 1.000 0.000 0.000 -1.000 0.000 841.890 cm
@@ -447,18 +384,9 @@ BT /F1 8.00 Tf ET
 0 G
 1.000 1.000 1.000 rg
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 36.42 Tm 0 Tr (67  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 36.42 Tm 0 Tr (    ) Tj  ET Q
-BT /F2 8.00 Tf ET
-q 0.000 0.627 0.000 rg BT 1 0 0 -1 66.75 36.42 Tm 0 Tr (cout) Tj  ET Q
-BT /F1 8.00 Tf ET
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 85.95 36.42 Tm 0 Tr (<<) Tj  ET Q
-BT /F2 8.00 Tf ET
-q 0.000 0.627 0.000 rg BT 1 0 0 -1 95.55 36.42 Tm 0 Tr (endl) Tj  ET Q
-BT /F1 8.00 Tf ET
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 114.75 36.42 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 36.42 Tm 0 Tr (    cout<<endl;) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 47.76 Tm 0 Tr (68  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 47.76 Tm 0 Tr (  ) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 57.15 47.76 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 47.76 Tm 0 Tr (  }) Tj  ET Q
 Q
 
 endstream
@@ -503,7 +431,7 @@ endobj
 10 0 obj
 <<
 /Producer (þÿ w x P d f D o c u m e n t   0 . 9 . 4)
-/CreationDate (D:20180529132223)
+/CreationDate (D:20180529212735)
 >>
 endobj
 11 0 obj
@@ -517,17 +445,17 @@ endobj
 xref
 0 12
 0000000000 65535 f 
-0000027339 00000 n 
-0000027627 00000 n 
+0000023322 00000 n 
+0000023610 00000 n 
 0000000009 00000 n 
 0000000098 00000 n 
-0000026399 00000 n 
-0000026488 00000 n 
-0000027434 00000 n 
-0000027533 00000 n 
-0000027741 00000 n 
-0000027772 00000 n 
-0000027880 00000 n 
+0000022790 00000 n 
+0000022879 00000 n 
+0000023417 00000 n 
+0000023516 00000 n 
+0000023724 00000 n 
+0000023755 00000 n 
+0000023863 00000 n 
 trailer
 <<
 /Size 12
@@ -535,5 +463,5 @@ trailer
 /Info 10 0 R
 >>
 startxref
-27984
+23967
 %%EOF

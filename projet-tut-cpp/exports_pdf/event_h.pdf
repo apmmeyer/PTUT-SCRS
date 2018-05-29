@@ -7,7 +7,7 @@
 /Contents 4 0 R>>
 endobj
 4 0 obj
-<</Length 17694>>
+<</Length 17039>>
 stream
 q
 1.000 0.000 0.000 -1.000 0.000 841.890 cm
@@ -270,22 +270,9 @@ BT /F1 8.00 Tf ET
 q 1.000 0.000 0.000 rg BT 1 0 0 -1 177.15 694.06 Tm 0 Tr (\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 705.40 Tm 0 Tr (60  ) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 716.73 Tm 0 Tr (61  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 716.73 Tm 0 Tr (  ) Tj  ET Q
-q 0.745 0.745 0.902 rg BT 1 0 0 -1 57.15 716.73 Tm 0 Tr (// Mutateur, change la valeur du booleen occured) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 716.73 Tm 0 Tr (  // Mutateur, change la valeur du booleen occured) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 728.07 Tm 0 Tr (62  ) Tj  ET Q
-q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 728.07 Tm 0 Tr (  ) Tj  ET Q
-BT /F2 8.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 57.15 728.07 Tm 0 Tr (void ) Tj  ET Q
-BT /F1 8.00 Tf ET
-1.000 1.000 1.000 rg
-81.15 720.00 52.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 81.15 728.07 Tm 0 Tr (set_occured) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 133.95 728.07 Tm 0 Tr (\() Tj  ET Q
-BT /F2 8.00 Tf ET
-q 0.000 0.000 0.627 rg BT 1 0 0 -1 138.75 728.07 Tm 0 Tr (bool ) Tj  ET Q
-BT /F1 8.00 Tf ET
-1.000 1.000 1.000 rg
-162.75 720.00 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 162.75 728.07 Tm 0 Tr (occur) Tj  ET Q
-q 1.000 0.000 0.000 rg BT 1 0 0 -1 186.75 728.07 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 728.07 Tm 0 Tr (  void set_occured\(bool occur\);) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 739.41 Tm 0 Tr (63  ) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 750.75 Tm 0 Tr (64  ) Tj  ET Q
 q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 750.75 Tm 0 Tr (  // Mutateur, ajoute une valeur dans les heures d'apparition de l'event) Tj  ET Q
@@ -395,7 +382,7 @@ endobj
 10 0 obj
 <<
 /Producer (þÿ w x P d f D o c u m e n t   0 . 9 . 4)
-/CreationDate (D:20180529101409)
+/CreationDate (D:20180529212914)
 >>
 endobj
 11 0 obj
@@ -409,17 +396,17 @@ endobj
 xref
 0 12
 0000000000 65535 f 
-0000021235 00000 n 
-0000021523 00000 n 
+0000020580 00000 n 
+0000020868 00000 n 
 0000000009 00000 n 
 0000000098 00000 n 
-0000017843 00000 n 
-0000017932 00000 n 
-0000021330 00000 n 
-0000021429 00000 n 
-0000021637 00000 n 
-0000021668 00000 n 
-0000021776 00000 n 
+0000017188 00000 n 
+0000017277 00000 n 
+0000020675 00000 n 
+0000020774 00000 n 
+0000020982 00000 n 
+0000021013 00000 n 
+0000021121 00000 n 
 trailer
 <<
 /Size 12
@@ -427,5 +414,5 @@ trailer
 /Info 10 0 R
 >>
 startxref
-21880
+21225
 %%EOF

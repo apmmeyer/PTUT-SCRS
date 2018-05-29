@@ -40,6 +40,10 @@
 		</Unit>
 		<Unit filename="src/event.cpp" />
 		<Unit filename="src/event.h" />
+		<Unit filename="src/interface.cpp" />
+		<Unit filename="src/interface.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Unit filename="src/main.cpp" />
 		<Unit filename="src/parser.cpp" />
 		<Unit filename="src/parser.h" />

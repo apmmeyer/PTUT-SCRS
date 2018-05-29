@@ -22,6 +22,7 @@ Fonctionnement : le fichier .exe doit être à la racine de /src et /txt.
 #include "parser.h"
 #include "parser_chr.h"
 #include "parser_evt.h"
+#include "interface.h"
 using namespace std;
 
 
@@ -260,6 +261,9 @@ int main(){
             }
 
         }
+
+        /* Affichage de toutes les chroniques à chaque itération */
+        //interface();
 
 	}
 
