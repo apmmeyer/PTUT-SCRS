@@ -22,6 +22,6 @@ void set_size();
 void graph_completion(chronique chron);
 
 // Lancement de l'interface
-int interface();
+void interface();
 
 #endif // INTERFACE_H_INCLUDED

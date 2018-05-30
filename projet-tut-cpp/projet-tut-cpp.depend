@@ -47,7 +47,7 @@
 	"parser.h"
 	<vector>
 
-1527625142 source:c:\users\acer\desktop\projet-tut-cpp\src\main.cpp
+1527698853 source:c:\users\acer\desktop\projet-tut-cpp\src\main.cpp
 	<iostream>
 	<string>
 	<vector>
@@ -59,6 +59,7 @@
 	"parser_chr.h"
 	"parser_evt.h"
 	"interface.h"
+	<cstdlib>
 
 1527265080 c:\users\acer\desktop\projet-tut-cpp\src\event.h
 	<iostream>
@@ -110,7 +111,7 @@
 	<string>
 	"event.h"
 
-1527625197 c:\users\acer\desktop\projet-tut-cpp\src\interface.h
+1527693918 c:\users\acer\desktop\projet-tut-cpp\src\interface.h
 	"chronique.h"
 	"event.h"
 	"contrainte.h"
@@ -118,6 +119,8 @@
 	"parser_chr.h"
 	"parser_evt.h"
 
-1527625388 source:c:\users\acer\desktop\projet-tut-cpp\src\interface.cpp
+1527694784 source:c:\users\acer\desktop\projet-tut-cpp\src\interface.cpp
 	"interface.h"
+	<stdio.h>
+	<iostream>
 

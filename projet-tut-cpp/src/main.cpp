@@ -23,6 +23,7 @@ Fonctionnement : le fichier .exe doit être à la racine de /src et /txt.
 #include "parser_chr.h"
 #include "parser_evt.h"
 #include "interface.h"
+#include <cstdlib>
 using namespace std;
 
 
@@ -52,10 +53,9 @@ chronique check_validation(chronique chro, event e) {
     bool cond_nom = ((list_contraintes[indice].get_event().get_label()) == (e.get_label()));
 
         // TYPE 2 : temp sur la condition sur le temps
-    bool cond_temps = ((list_contraintes[indice].get_time()) >=  (e.get_last_h_occur()));
+    bool cond_temps;
 
-        // TYPE 3 : temp sur la condition sur le temps pour le no event
-        // >> valeur de la dernière validation de la contrainte précédente
+    // >> valeur de la dernière validation de la contrainte précédente
     int last_valid = 0; // dans le cas où il n'y a pas de contrainte précédente
     if (indice >= 1) {
         string nom_last = list_contraintes[indice-1].get_event().get_label();
@@ -67,7 +67,12 @@ chronique check_validation(chronique chro, event e) {
             }
         }
     }
+    // >> valeur du temps limite
     int contr_temps = list_contraintes[indice].get_time();
+    // >> affectation du booléen
+    cond_temps = (HEURE_COURANTE  <= (contr_temps) + last_valid);
+
+        // TYPE 3 : temp sur la condition sur le temps pour le no event (utilise une partie du TYPE 2)
     // >> ajout de la contrainte de temps et comparaison avec l'heure courante
     // >> vrai si la contrainte est validée
     bool cond_temps_no_event = (HEURE_COURANTE >= (last_valid+contr_temps));
@@ -229,6 +234,7 @@ int main(){
     // recuperation de la sequence
 	MA_SEQUENCE = parser();
 
+    system("cls");
 
 	/*** Algorithme de lecture de la sequence ***/
 
@@ -263,7 +269,7 @@ int main(){
         }
 
         /* Affichage de toutes les chroniques à chaque itération */
-        //interface();
+       interface();
 
 	}
 

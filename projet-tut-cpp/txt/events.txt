@@ -8,3 +8,8 @@ FranchissementChb
 PresenceSDB_Personne
 PresenceChb_Personne
 PresenceSalon_Personne
+MedicamentPris
+Apres22_heures
+Idle
+CheckUpAlarm_Event
+Appui
