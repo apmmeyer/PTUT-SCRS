@@ -269,7 +269,7 @@ int main(){
         }
 
         /* Affichage de toutes les chroniques à chaque itération */
-       interface();
+       //interface();
 
 	}
 
