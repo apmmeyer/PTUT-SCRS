@@ -21,7 +21,7 @@ void graph_completion(chronique chron){
     for (int i= completion_ratio/10; i<10; i++)
         printf(" ");
 
-    printf("] %d \%",completion_ratio);
+    printf("] %d %%",completion_ratio);
 
 }
 
